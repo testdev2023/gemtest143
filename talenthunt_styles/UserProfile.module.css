@@ -1,0 +1,144 @@
+.user_profile_main {
+  background-color: black;
+  /* width: 1260; */
+  /* width: 100%; */
+  /* max-width: 1440px;  */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  /* gap: 24px; */
+}
+
+.user_profile_main_sec1 {
+  margin-bottom: 24px;
+}
+
+.user_profile_main_sec2 {
+  width: 100%;
+  max-width: 1440px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a2a;
+  /* margin-bottom: 45px; */
+}
+.user_profile_main_sec2 button {
+  margin: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #c2c2c2;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.user_profile_main_sec2 button:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #b38206;
+}
+.user_profile_main_sec2 button:focus {
+  color: #fcc100;
+  border-bottom: 1px solid #fcc100;
+}
+
+.user_profile_main_sec3_parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.user_profile_main_sec3 {
+  width: 100%;
+  max-width: 1440px;
+  /* height: 600px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a2a;
+  /* margin-bottom: 45px; */
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_profile_main_sec3_sub {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_profile_main_sec3_sub button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+.user_profile_main_sec3_sub button:hover,
+.user_profile_main_sec3_sub button:hover span {
+  color: #000;
+}
+.user_profile_main_sec3_sub1 {
+  border-bottom: 2px solid #383838;
+  width: 100%;
+  display: flex;
+  padding: 30px 0;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.key {
+  width: 260px;
+  color: #c2c2c2;
+}
+
+@media screen and (max-width: 1440px) {
+  .user_profile_main_sec2,
+  .user_profile_main_sec3 {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .user_profile_main_sec3_parent {
+    width: 90%;
+  }
+
+  .user_profile_main {
+    padding-top: 150px;
+  }
+
+  .user_profile_main_sec2 button {
+    margin: 30px;
+  }
+  .user_profile_main_sec3 {
+    padding: 20px 20px;
+  }
+
+  .key {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .user_profile_main_sec3_sub button {
+    padding: 5px 10px;
+  }
+}

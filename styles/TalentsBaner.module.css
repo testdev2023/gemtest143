@@ -1,0 +1,102 @@
+.talents_baner_main {
+  width: 100vw;
+  /* margin: 50px 0 0 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 24px;
+}
+
+.talents_baner_sec1 {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.carousel_card {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_image {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.carousel_card h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.btn_parent {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  height: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .talents_baner_sec1,
+  .carousel {
+    max-width: 1200px;
+  }
+
+  .carousel_card {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn_parent {
+    right: 10px;
+    gap: 30px;
+  }
+
+  .carousel {
+    padding: 0 20px;
+  }
+
+  .talents_baner_sec1 h1 {
+    font-size: 28px !important;
+  }
+
+  .carousel_card {
+    height: 289px;
+  }
+
+  .talents_baner_main {
+    margin-bottom: 24px;
+  }
+
+  .carousel_card p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0;
+  }
+}

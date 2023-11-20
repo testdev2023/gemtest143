@@ -1,0 +1,155 @@
+.about_prizes_winners_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 24px; */
+}
+
+.sub_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.prize_winners_baner_sec1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.prize_winners_baner_sec2 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.prize_winners_baner_sec3 {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.prize_winners_baner_sec7 {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.prize_winner_card2 {
+  height: 463.98px;
+  width: 463.98px;
+  box-shadow: 0px 0px 5px 1px #fcc100;
+  transition: transform 0.2s;
+  position: relative;
+}
+.prize_winner_card2:hover {
+  transform: scale(0.95);
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(62, 65, 65, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+.news_image_div h4 {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  margin-bottom: 12px;
+}
+
+.prize_winner_card2_icon1 {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .prize_winners_baner_sec1,
+  .prize_winners_baner_sec7,
+  .prize_winners_baner_sec3 {
+    max-width: 1200px;
+  }
+
+  .prize_winner_card2 {
+    width: 380.98px;
+    height: 380.98px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .sub_parent {
+    padding: 0 20px;
+  }
+
+  .prize_winners_baner_sec2 p,
+  .winners_sec2 p {
+    text-align: start;
+  }
+
+  .prize_winner_card2 {
+    width: 363px;
+    height: 363px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prize_winner_card2 {
+    width: 352px;
+    height: 352px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .prize_winners_baner_sec3,
+  .prize_winners_baner_sec7,
+  .winners_sec3 {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .prize_winner_card2 {
+    width: 337px;
+    height: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .prize_winner_card2 {
+    width: 288px;
+    height: 288px;
+  }
+}

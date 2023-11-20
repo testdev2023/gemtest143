@@ -1,0 +1,49 @@
+.parent {
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: #000; */
+  width: 78vw;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.g_parnt {
+  /* background-color: #000; */
+}
+.signup_sub {
+  /* height: 824px; */
+  /* border: 1px solid blue; */
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+}
+
+.Mobile_image {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .parent {
+    margin: 0 auto;
+    width: 90vw;
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .signup_sub {
+    max-width: 100%;
+  }
+  .Mobile_image {
+    display: flex;
+    height: 55vh;
+    width: 90vw;
+    background: url(../src/asset/sliderImgs/sliderkids.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,119 @@
+.what_you_can_baner_container {
+  width: 100%;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40px; */
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.what_you_can_baner_sec1 {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 30px; */
+  /* margin-top: 35px; */
+}
+
+.what_you_can_baner_sec2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.what_you_can_baner_card {
+  /* height: 463.98px; */
+  /* height: 80px; */
+  width: 463.98px;
+  overflow: hidden;
+  /* margin-bottom: 24px; */
+  box-shadow: 0px 0px 10px 3px #f1b001;
+}
+
+.what_you_can_baner_card:hover {
+  box-shadow: 0px 0px 10px 3px #2a2a2a;
+}
+
+.what_you_can_baner_card_link {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+  background-color: #2a2a2a;
+}
+
+.what_you_can_baner_card_link:hover {
+  background-color: #fcc100;
+}
+
+.card_link_icon_div {
+  height: 50px;
+  width: 50px;
+}
+
+.card_link_icon_div img {
+  height: 100%;
+  width: 100%;
+}
+
+.what_you_can_baner_card_link h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  width: 70%;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .what_you_can_baner_container {
+    max-width: 1200px;
+  }
+
+  .what_you_can_baner_card {
+    width: 380.98px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .what_you_can_baner_container {
+    margin-bottom: 24px;
+  }
+
+  .what_you_can_baner_sec1 h2 {
+    text-align: center;
+  }
+
+  .what_you_can_baner_card {
+    width: 363px;
+  }
+
+  .what_you_can_baner_sec2 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .what_you_can_baner_card {
+    width: 337px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .what_you_can_baner_card {
+    width: 288px;
+  }
+}

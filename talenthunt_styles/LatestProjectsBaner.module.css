@@ -1,0 +1,245 @@
+.latest_project_container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40px; */
+  margin-bottom: 50px;
+  gap: 24px;
+}
+
+.latest_project_sec1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.latest_project_sec2 {
+  width: 100%;
+  max-width: 1440px;
+}
+.latest_project_sec3 {
+  width: 100%;
+  max-width: 1440px;
+  /* display: flex; */
+  /* gap: 24px; */
+}
+
+.card {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.card_img_div {
+  height: 463.98px;
+  object-fit: cover;
+  background-color: #2a2a2a;
+}
+.card_img_div image {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(62, 65, 65, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+.content span {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+}
+
+.latest_project_view_project:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #b38206;
+}
+.latest_project_textalign {
+  text-align: center;
+}
+.latest_project_Submitted_by {
+  color: #fcc100;
+}
+
+.latest_project_image_sizing {
+  width: 100%;
+  height: 100%;
+}
+.view_more_button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+
+.view_more_button:hover {
+  color: #000;
+}
+
+.box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(
+      180deg,
+      #000000b3 50%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../src/asset/gemlogo.png);
+  padding: 10px;
+  box-shadow: 0px 0px 10px 2px #fcc100;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.btn_div,
+.btn_div_mob {
+  margin-bottom: 2%;
+}
+.unitX,
+.unitX_mob {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  cursor: pointer;
+  font-size: 33px;
+  font-weight: 100;
+  top: 3%;
+  left: 48%;
+  font-weight: bold;
+  color: #fff;
+}
+.unitX:hover,
+.unitX_mob:hover {
+  color: #fcc100;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  /* gap: 24px; */
+}
+.btn_parent {
+  position: absolute;
+  right: 00px;
+  top: 10px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .latest_project_sec1,
+  .latest_project_sec2,
+  .latest_project_sec3,
+  .carousel {
+    max-width: 1200px;
+  }
+  .card_img_div {
+    height: 380.98px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel {
+    padding: 0 20px !important;
+  }
+  .btn_parent {
+    right: 10px;
+    gap: 30px;
+  }
+
+  .card_img_div {
+    height: 363px;
+    margin: 0;
+  }
+
+  .box {
+    width: 700px;
+  }
+
+  .latest_project_container {
+    margin-bottom: 24px;
+  }
+  .dashline {
+    border-bottom: 2px solid #fcc100;
+    width: 50px;
+  }
+
+  .latest_project_textalign {
+    text-align: start;
+  }
+  .latest_project_sec3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .box {
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+  .btn_div {
+    display: none;
+  }
+  .unitX_mob {
+    right: 0;
+  }
+  .btn_div_mob {
+    display: block;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .card_img_div {
+    height: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card_img_div {
+    height: 288px;
+  }
+}

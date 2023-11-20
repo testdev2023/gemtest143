@@ -1,0 +1,93 @@
+.e_learning_baner_container {
+  width: 100%;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40px; */
+  margin-bottom: 35px;
+}
+
+.e_learning_baner_sec1 {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  /* margin-top: 35px; */
+}
+
+.e_learning_baner_dashline {
+  border-bottom: 4px solid #fcc100;
+  width: 76px;
+}
+
+.e_learning_baner_sec2 {
+  width: 100%;
+  /* height: 500px; */
+  /* margin-bottom: 70px; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_image_div {
+  height: 463.98px;
+  width: 463.98px;
+  position: relative;
+  overflow: hidden;
+}
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  gap: 24px;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  /* filter: blur(0.5px); */
+}
+.content {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.15) 95%,
+    rgba(62, 65, 65, 0) 100%
+  );
+  padding: 0 0 24px 24px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .e_learning_baner_container,
+  .carousel {
+    max-width: 1200px;
+  }
+  .card_image_div {
+    height: 383.98px;
+    width: 383.98px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .e_learning_baner_container {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .e_learning_baner_dashline {
+    border-bottom: 2px solid #fcc100;
+    width: 50px;
+  }
+
+  .card_image_div {
+    height: 438px;
+    width: 438px;
+  }
+}

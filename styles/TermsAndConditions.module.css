@@ -1,0 +1,29 @@
+.terms_and_condictions_baner_sec1 {
+  /* width: 1260px; */
+  /* height: 55px; */
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> privacy policy >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.privacy_policy_baner_sec1 {
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  /* .terms_and_condictions_cover_baner, */
+  .terms_and_condictions_baner_sec1,
+  /* .privacy_policy_cover_baner, */
+  .privacy_policy_baner_sec1 {
+    max-width: 1200px;
+  }
+}

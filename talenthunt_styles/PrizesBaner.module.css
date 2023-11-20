@@ -1,0 +1,164 @@
+.prize_baner_container {
+  width: 100%;
+  /* height: 781px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 24px;
+}
+
+.prize_baner_sec1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 30px; */
+}
+
+.prize_baner_sec1 h1 {
+  /* margin-left: 30px; */
+  font-weight: 600;
+  font-size: 44px;
+  /* line-height: 53px; */
+}
+
+.prize_baner_sec2 {
+  width: 100%;
+  max-width: 1440px;
+  /* margin-bottom: 30px; */
+}
+.prize_baner_sec2 {
+  text-align: center;
+}
+.prize_baner_sec3 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  gap: 24px;
+
+  /* justify-content: space-between; */
+}
+.prize_card_prizing {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 65px;
+  color: #fcc100;
+}
+
+.prize_card {
+  height: 463.98px;
+  width: 463.98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  /* background-color: #474747; */
+}
+
+.prize_card_sec2 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prize_baner_sec2 p {
+  text-align: center;
+}
+.prize_card_position_no {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 65px;
+}
+.prize_card_position {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+.card1_icon1 {
+  height: 50%;
+  width: 50%;
+  background: url(../src/asset/Prizes/icon/Cup.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.prize_card2_icon1 {
+  height: 50%;
+  width: 50%;
+  /* background: url(../src/asset/Prizes/icon/Cup.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.prize_card_sec3 {
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prize_card_sec3 h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #fcc100;
+}
+
+@media screen and (max-width: 1440px) {
+  .prize_baner_sec1,
+  .prize_baner_sec2,
+  .prize_baner_sec3 {
+    max-width: 1200px;
+  }
+
+  .prize_card {
+    height: 383.98px;
+    width: 383.98px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .prize_card {
+    height: 383.98px;
+    width: 383.98px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .prize_baner_container {
+    margin-bottom: 24px;
+  }
+
+  .prize_baner_sec2 p {
+    text-align: start;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .prize_baner_sec3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .prize_card {
+    width: 363px;
+    height: 363px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .prize_card {
+    width: 337px;
+    height: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .prize_card {
+    width: 288px;
+    height: 288px;
+  }
+}

@@ -1,0 +1,438 @@
+/* @font-face {
+  font-family: "Gravity";
+  src: url("../src/asset/fonts/font/MTVGravityGrotesk-Medium.woff")
+    format("truetype");
+} */
+
+:root {
+  --themeGradient: linear-gradient(to right, #c57a24 0%, #fcc100 100%);
+  --themeGray: rgb(66, 66, 66);
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  /* font-weight: 700; */
+  src: url("../src/asset/fonts/static/JosefinSans-Medium.ttf")
+    format("truetype");
+}
+::-webkit-inner-spin-button {
+  display: none;
+}
+
+::-webkit-datetime-edit-text {
+  color: #555555;
+}
+::-webkit-datetime-edit-month-field {
+  color: #555555;
+}
+::-webkit-datetime-edit-day-field {
+  color: #555555;
+}
+::-webkit-datetime-edit-year-field {
+  color: #555555;
+}
+::-webkit-calendar-picker-indicator {
+  background-image: url(http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Calendar-icon.png);
+  background-position: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  color: rgba(204, 204, 204, 0);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: "Gravity", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.MuiAccordionSummary-content,
+.MuiTypography-root {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+html,
+body {
+  color: #fff;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  padding: 0 !important;
+  background-color: #000;
+  background-image: url(../src/asset/mainBg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0;
+}
+
+.Toastify__toast-body div {
+  color: #000 !important;
+}
+
+.toast div {
+  color: #000 !important;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 100;
+  color: #7a7a7a;
+}
+
+button {
+  background: #f1b001;
+  cursor: pointer;
+}
+
+input {
+  padding-left: 10px;
+  color: #fff !important;
+}
+
+.tost div {
+  color: black;
+}
+
+.pagination {
+  margin: 40px 0;
+  position: relative;
+}
+
+.pagination ul,
+.pagination li,
+.pagination a {
+  color: #fff !important;
+  background-color: #000;
+}
+
+.iframe div {
+  width: 100vw !important;
+}
+.iframe video {
+  width: 100vw !important;
+}
+
+/* styles/TalentsBaner.module.css (or your preferred CSS file) */
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  background: var(--themeGradient);
+  padding: 15px;
+  color: #fff !important;
+  fill: black !important;
+  stroke: black !important;
+  font-weight: bolder;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  /* background-color: #f1b001; */
+  color: #000 !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 10px;
+    height: 20px !important;
+    width: 20px !important;
+  }
+}
+
+/* picture croper >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.ant-modal-content {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+}
+.ant-modal-header div {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+}
+
+.ant-modal-close span {
+  color: #fff !important;
+}
+.ant-modal-close span:hover {
+  color: #f1b001 !important;
+}
+
+.ant-slider-track {
+  background-color: #f1b001 !important;
+}
+
+.ant-slider-handle::after {
+  box-shadow: 0 0 0 2px #f1b001 !important;
+}
+
+.ant-btn-primary {
+  background-color: #f1b001 !important;
+}
+.ant-btn-default {
+  background-color: transparent !important;
+  /* color: #fff; */
+}
+.ant-btn-default:hover {
+  border-color: #f1b001 !important;
+  /* color: #fff; */
+}
+
+/* >>>>>>>>>>>>>>>>> pnumber >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.highlight {
+  background-color: #fcc100 !important;
+}
+
+.open {
+  background-color: transparent !important;
+}
+
+/* ??????????????????????????????? font style ?????????????????????????????????????? */
+
+/* Reset default margin and padding for all elrements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.yellow {
+  color: #fcc100;
+}
+.color_yellow {
+  color: #fcc100;
+}
+.color_yellow:hover {
+  color: #fff;
+}
+.color_white {
+  color: #fff;
+}
+.color_white:hover {
+  color: #fcc100;
+}
+
+.h4_light_black {
+  color: #000;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.name_heading {
+  color: #d8d6d6;
+  font-weight: 500;
+  font-size: 18px;
+}
+.small_heading {
+  color: #a4a2a2;
+  font-weight: 500;
+  font-size: 14px;
+}
+.small_heading_yellow {
+  color: #fcc100;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.big_light_heading {
+  font-weight: lighter;
+  line-height: 1.3;
+}
+
+/* Set default font family and size */
+body {
+  font-size: 16px;
+}
+div {
+  color: #fff;
+}
+
+/* Headings */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+h1 span {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 a {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+h2 span {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #fff;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  /* font-size: 1.2rem; */
+  line-height: 1.5;
+  color: #fff;
+
+  /* font-weight: 500; */
+}
+
+/* Links */
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  /* color: #fff; */
+}
+
+/* Lists */
+ul,
+ol {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Tables */
+table {
+  font-size: 1rem;
+  color: #fff;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+span {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+select,
+option {
+  color: #fff;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  h1 span {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h2 a {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  h2 span {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  span,
+  p,
+  button,
+  a {
+    font-size: 14px;
+  }
+}
+
+.kep-login-facebook {
+  height: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  padding: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 12px !important;
+  border-radius: 5px !important;
+}
+
+/* .makeStyles-container-11 {
+  color: #000;
+  height: auto;
+  outline: none;
+  padding: 0px !important;
+  position: relative;
+  max-width: 568px;
+  min-width: 250px;
+  background: transparent !important;
+  width: 100%;
+} */
+
+/* .makeStyles-iconContainer-13 {
+  text-align: left;
+  padding-top: 0px !important;
+  padding-bottom: 15px;
+} */

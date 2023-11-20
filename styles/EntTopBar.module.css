@@ -1,0 +1,210 @@
+.nav_main {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.container {
+  display: none;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .container {
+    display: block;
+  }
+} */
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 1);
+  /* height: 100%; */
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 99999;
+  transform: translateX(2950px);
+  transition: transform 0.3s ease-in-out;
+  /* overflow-y: scroll; */
+  /* margin-top: 40px; */
+}
+
+.sidebar a {
+  /* color: black; */
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.button_background {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.openButton,
+.button_background {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  z-index: 2;
+}
+.home_icon {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  z-index: 2;
+}
+
+.closeButton {
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.nav {
+  height: 600px;
+  overflow: scroll;
+}
+.nav ul li {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nav ul li ul {
+  height: 350px;
+  overflow: scroll;
+}
+
+.nav ul {
+  list-style: none;
+  /* display: inline-block; */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* background-color: #e64a19; */
+}
+
+.nav ul > li > a {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid gray;
+  line-height: 28px;
+  text-decoration: none;
+}
+.nav ul > li > ul > li > a {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid gray;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+/* Hide Dropdowns by Default */
+.nav ul ul {
+  display: none;
+  margin-left: 20px;
+  /* position: absolute; */
+  top: 60px; /* the height of the main .nav */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+/* Display Dropdowns on Hover */
+.nav ul .li:hover > ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+.nav ul ul .li {
+  /* width: 170px; */
+  float: none;
+  display: list-item;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Second, Third and more Tiers	*/
+.nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+.li > a:after {
+  content: "+";
+}
+.li > a:after:focus {
+  color: aqua;
+  content: "-";
+}
+.li > a:only-child:after {
+  content: "";
+}
+
+.li_img {
+  height: 60px;
+  z-index: 999;
+  position: relative;
+}
+.li_img img {
+  height: 110px;
+}
+
+.li_img a:hover {
+  background-color: transparent;
+}
+.nav_top_mobile {
+  display: none;
+}
+
+.dropbtn {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid gray;
+  line-height: 28px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .button_background {
+    display: block;
+    width: 100vw;
+    height: 40px;
+    top: 40px;
+    left: 0;
+    background-color: #000;
+  }
+
+  .openButton,
+  .home_icon {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .nav_top {
+    display: none;
+  }
+  .sidebar {
+    display: block;
+  }
+  .nav_top_mobile {
+    display: block;
+  }
+}
+
+.activeOption {
+  color: #fcc100 !important;
+}

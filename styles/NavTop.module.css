@@ -1,0 +1,254 @@
+.nav_top {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #424242;
+  height: 40px;
+}
+
+.nav_top_left {
+  display: flex;
+  width: 145px;
+  gap: 5px;
+}
+
+.nav_top_right {
+  /* width: 25%; */
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.nav_top_right a {
+  color: #fcc100;
+}
+.nav_top_right a:hover {
+  color: #fff;
+}
+
+.nav_top_right2 {
+  /* width: 45%; */
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-between; */
+  text-align: center;
+  align-items: center;
+}
+
+.activeOption {
+  color: #fff !important;
+}
+.nav_top_right .divider {
+  margin: 0 10px;
+  align-items: center;
+  border-color: #fcc100;
+}
+.box {
+  display: flex;
+  align-items: center;
+}
+.box div {
+  height: 30px;
+  width: 30px;
+}
+.divider {
+  border: 1px solid #fcc100;
+  height: 20px;
+}
+.nav_top_left a .icon {
+  fill: #fcc100;
+  color: #fcc100;
+  /* stroke: #fff; */
+  height: 20px;
+  width: 20px;
+}
+.nav_top_left a .icon:hover {
+  fill: #ffff;
+  color: #ffff;
+}
+.nav_top_center {
+  height: 40px;
+  z-index: 999;
+  position: relative;
+  top: 10px;
+}
+.nav_top_center a img {
+  height: 80px;
+  width: 80px;
+}
+@media only screen and (max-width: 1440px) {
+  .nav_top {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav_top {
+    justify-content: space-between;
+    max-width: 100vw;
+    padding: 0 10px;
+  }
+  .link {
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 10px;
+  }
+
+  .nav_top_left a .icon {
+    font-size: 16px;
+    color: #fcc100;
+    fill: #fcc100;
+  }
+  .nav_top_right2 {
+    /* width: 25%; */
+  }
+
+  .nav_top {
+    width: 100vw;
+    /* padding: 0 10px; */
+  }
+}
+
+.menu ul {
+  background-color: rgb(26, 26, 26);
+  /* width: 300px; */
+  border-radius: 0px !important;
+  color: #fff !important;
+  border: 1px solid #fff;
+  padding: 27px 36px;
+}
+
+.menu ul li p {
+  color: #fff !important;
+  font-weight: 800;
+  /* font-size: 14px; */
+  line-height: 15px;
+}
+
+.menu ul li p:hover {
+  color: #fcc100 !important;
+}
+.menu ul li p:active {
+  color: #fff !important;
+}
+.menu ul li p:focus {
+  color: #fcc100 !important;
+}
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  height: 100%;
+  background-color: inherit;
+  margin: 0;
+  color: #fcc100;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: #fff;
+}
+.activeOption {
+  color: #fff !important;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  float: none;
+  background-color: #3a3a3a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+/* mobile drop doen  */
+
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+
+.dropdown1 .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  height: 100%;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown1:hover .dropbtn {
+  color: #fcc100;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.dropdown_content a {
+  float: none;
+  background-color: #3a3a3a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: #fcc100;
+}
+
+.dropdown_content a:hover {
+  color: #fff;
+}
+
+.dropdown1:hover .dropdown_content {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .dropdown {
+    display: none;
+  }
+  /* .dropdown1 {
+    display: flex;
+  } */
+}

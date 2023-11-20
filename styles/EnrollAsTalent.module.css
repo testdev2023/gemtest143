@@ -1,0 +1,267 @@
+.parentContainer {
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 56px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  margin-top: 170px;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2a2a2a;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.ul li {
+  font-weight: 100;
+  font-size: 20px;
+}
+.ul li:hover {
+  color: #fcc100;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.aboutme_parent {
+  /* background-color: #2a2a2a; */
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 56px;
+  margin-bottom: 30px;
+}
+
+.child1 {
+  background-color: #2a2a2a;
+  width: 100%;
+  margin-bottom: 56px;
+  margin-bottom: 30px;
+  padding: 20px 40px;
+}
+
+.child1 > h1 {
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 70px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+
+.flex label {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+
+.flex input {
+  width: 50%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+  height: 50px;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+}
+.flex select {
+  width: 50%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  height: 50px;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+}
+.flex textarea {
+  width: 50%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex2 button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.flex6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flex3 > h1 {
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.flex3 button,
+.flex6 button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.flex3 .flex {
+  width: 100%;
+}
+.flex5 .flex {
+  width: 33%;
+}
+.flex3 .flex input {
+  width: 80%;
+}
+
+.flex3 .flex button {
+  margin-top: 30px;
+  width: 150px;
+}
+.flex6 .flex button {
+  margin-top: 30px;
+  width: 150px;
+}
+
+.flex4 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-bottom: 1px solid #c2c2c2;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.flex4 label {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  color: #c2c2c2;
+  width: 30%;
+}
+
+.flex5 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border-bottom: 1px solid #c2c2c2; */
+  /* margin-bottom: 70px; */
+  margin-top: 10px;
+}
+
+.flex6 > div > button {
+  margin: 0 10px;
+}
+
+.flex5 p {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.flex h4 {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.ap {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c2c2c2;
+  width: 50%;
+}
+
+.child3 {
+  width: 100%;
+  margin-bottom: 56px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.achivments_card {
+  width: 48%;
+  background-color: #2a2a2a;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.achivments_card p {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c2c2c2;
+}
+
+.child4 {
+  background-color: #2a2a2a;
+  width: 100%;
+  margin-bottom: 56px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.img_card {
+  height: 236px;
+  width: 236px;
+  /* border: 1px solid green; */
+  margin-bottom: 20px;
+}
+
+.img_card img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .parentContainer,
+  .aboutme_parent {
+    max-width: 1200px;
+  }
+}

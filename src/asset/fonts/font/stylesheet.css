@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-Book.eot');
+    src: local('MTVGravityGroteskBook'), local('MTVGravityGrotesk-Book'),
+        url('MTVGravityGrotesk-Book.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-Book.woff2') format('woff2'),
+        url('MTVGravityGrotesk-Book.woff') format('woff'),
+        url('MTVGravityGrotesk-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskCond';
+    src: url('MTVGravityGroteskCond-Medium.eot');
+    src: local('MTVGravityGroteskCondMedium'), local('MTVGravityGroteskCond-Medium'),
+        url('MTVGravityGroteskCond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskCond-Medium.woff2') format('woff2'),
+        url('MTVGravityGroteskCond-Medium.woff') format('woff'),
+        url('MTVGravityGroteskCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskCond';
+    src: url('MTVGravityGroteskCond-Book.eot');
+    src: local('MTVGravityGroteskCondBook'), local('MTVGravityGroteskCond-Book'),
+        url('MTVGravityGroteskCond-Book.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskCond-Book.woff2') format('woff2'),
+        url('MTVGravityGroteskCond-Book.woff') format('woff'),
+        url('MTVGravityGroteskCond-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-Medium.eot');
+    src: local('MTVGravityGroteskMedium'), local('MTVGravityGrotesk-Medium'),
+        url('MTVGravityGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-Medium.woff2') format('woff2'),
+        url('MTVGravityGrotesk-Medium.woff') format('woff'),
+        url('MTVGravityGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskCond';
+    src: url('MTVGravityGroteskCond-Thin.eot');
+    src: local('MTVGravityGroteskCondThin'), local('MTVGravityGroteskCond-Thin'),
+        url('MTVGravityGroteskCond-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskCond-Thin.woff2') format('woff2'),
+        url('MTVGravityGroteskCond-Thin.woff') format('woff'),
+        url('MTVGravityGroteskCond-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-BoldItalic.eot');
+    src: local('MTVGravityGroteskBoldItalic'), local('MTVGravityGrotesk-BoldItalic'),
+        url('MTVGravityGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-BoldItalic.woff2') format('woff2'),
+        url('MTVGravityGrotesk-BoldItalic.woff') format('woff'),
+        url('MTVGravityGrotesk-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-LightItalic.eot');
+    src: local('MTVGravityGroteskLightItalic'), local('MTVGravityGrotesk-LightItalic'),
+        url('MTVGravityGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-LightItalic.woff2') format('woff2'),
+        url('MTVGravityGrotesk-LightItalic.woff') format('woff'),
+        url('MTVGravityGrotesk-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-Thin.eot');
+    src: local('MTVGravityGroteskThin'), local('MTVGravityGrotesk-Thin'),
+        url('MTVGravityGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-Thin.woff2') format('woff2'),
+        url('MTVGravityGrotesk-Thin.woff') format('woff'),
+        url('MTVGravityGrotesk-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskCond';
+    src: url('MTVGravityGroteskCond-Bold.eot');
+    src: local('MTVGravityGroteskCondBold'), local('MTVGravityGroteskCond-Bold'),
+        url('MTVGravityGroteskCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskCond-Bold.woff2') format('woff2'),
+        url('MTVGravityGroteskCond-Bold.woff') format('woff'),
+        url('MTVGravityGroteskCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-Bold.eot');
+    src: local('MTVGravityGroteskBold'), local('MTVGravityGrotesk-Bold'),
+        url('MTVGravityGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-Bold.woff2') format('woff2'),
+        url('MTVGravityGrotesk-Bold.woff') format('woff'),
+        url('MTVGravityGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskExt';
+    src: url('MTVGravityGroteskExt-Black.eot');
+    src: local('MTVGravityGroteskExtBlack'), local('MTVGravityGroteskExt-Black'),
+        url('MTVGravityGroteskExt-Black.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskExt-Black.woff2') format('woff2'),
+        url('MTVGravityGroteskExt-Black.woff') format('woff'),
+        url('MTVGravityGroteskExt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskExt';
+    src: url('MTVGravityGroteskExt-Book.eot');
+    src: local('MTVGravityGroteskExtBook'), local('MTVGravityGroteskExt-Book'),
+        url('MTVGravityGroteskExt-Book.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskExt-Book.woff2') format('woff2'),
+        url('MTVGravityGroteskExt-Book.woff') format('woff'),
+        url('MTVGravityGroteskExt-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskExt';
+    src: url('MTVGravityGroteskExt-Medium.eot');
+    src: local('MTVGravityGroteskExtMedium'), local('MTVGravityGroteskExt-Medium'),
+        url('MTVGravityGroteskExt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskExt-Medium.woff2') format('woff2'),
+        url('MTVGravityGroteskExt-Medium.woff') format('woff'),
+        url('MTVGravityGroteskExt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-Black.eot');
+    src: local('MTVGravityGroteskBlack'), local('MTVGravityGrotesk-Black'),
+        url('MTVGravityGrotesk-Black.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-Black.woff2') format('woff2'),
+        url('MTVGravityGrotesk-Black.woff') format('woff'),
+        url('MTVGravityGrotesk-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskCond';
+    src: url('MTVGravityGroteskCond-Light.eot');
+    src: local('MTVGravityGroteskCondLight'), local('MTVGravityGroteskCond-Light'),
+        url('MTVGravityGroteskCond-Light.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskCond-Light.woff2') format('woff2'),
+        url('MTVGravityGroteskCond-Light.woff') format('woff'),
+        url('MTVGravityGroteskCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskExt';
+    src: url('MTVGravityGroteskExt-Light.eot');
+    src: local('MTVGravityGroteskExtLight'), local('MTVGravityGroteskExt-Light'),
+        url('MTVGravityGroteskExt-Light.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskExt-Light.woff2') format('woff2'),
+        url('MTVGravityGroteskExt-Light.woff') format('woff'),
+        url('MTVGravityGroteskExt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-BookItalic.eot');
+    src: local('MTVGravityGroteskBookItalic'), local('MTVGravityGrotesk-BookItalic'),
+        url('MTVGravityGrotesk-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-BookItalic.woff2') format('woff2'),
+        url('MTVGravityGrotesk-BookItalic.woff') format('woff'),
+        url('MTVGravityGrotesk-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-Light.eot');
+    src: local('MTVGravityGroteskLight'), local('MTVGravityGrotesk-Light'),
+        url('MTVGravityGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-Light.woff2') format('woff2'),
+        url('MTVGravityGrotesk-Light.woff') format('woff'),
+        url('MTVGravityGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-MediumItalic.eot');
+    src: local('MTVGravityGroteskMediumItalic'), local('MTVGravityGrotesk-MediumItalic'),
+        url('MTVGravityGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-MediumItalic.woff2') format('woff2'),
+        url('MTVGravityGrotesk-MediumItalic.woff') format('woff'),
+        url('MTVGravityGrotesk-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskCond';
+    src: url('MTVGravityGroteskCond-Black.eot');
+    src: local('MTVGravityGroteskCondBlack'), local('MTVGravityGroteskCond-Black'),
+        url('MTVGravityGroteskCond-Black.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskCond-Black.woff2') format('woff2'),
+        url('MTVGravityGroteskCond-Black.woff') format('woff'),
+        url('MTVGravityGroteskCond-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskExt';
+    src: url('MTVGravityGroteskExt-Thin.eot');
+    src: local('MTVGravityGroteskExtThin'), local('MTVGravityGroteskExt-Thin'),
+        url('MTVGravityGroteskExt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskExt-Thin.woff2') format('woff2'),
+        url('MTVGravityGroteskExt-Thin.woff') format('woff'),
+        url('MTVGravityGroteskExt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGroteskExt';
+    src: url('MTVGravityGroteskExt-Bold.eot');
+    src: local('MTVGravityGroteskExtBold'), local('MTVGravityGroteskExt-Bold'),
+        url('MTVGravityGroteskExt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGroteskExt-Bold.woff2') format('woff2'),
+        url('MTVGravityGroteskExt-Bold.woff') format('woff'),
+        url('MTVGravityGroteskExt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-BlackItalic.eot');
+    src: local('MTVGravityGroteskBlackItalic'), local('MTVGravityGrotesk-BlackItalic'),
+        url('MTVGravityGrotesk-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-BlackItalic.woff2') format('woff2'),
+        url('MTVGravityGrotesk-BlackItalic.woff') format('woff'),
+        url('MTVGravityGrotesk-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTVGravityGrotesk';
+    src: url('MTVGravityGrotesk-ThinItalic.eot');
+    src: local('MTVGravityGroteskThinItalic'), local('MTVGravityGrotesk-ThinItalic'),
+        url('MTVGravityGrotesk-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('MTVGravityGrotesk-ThinItalic.woff2') format('woff2'),
+        url('MTVGravityGrotesk-ThinItalic.woff') format('woff'),
+        url('MTVGravityGrotesk-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,259 @@
+.about_prizes_winners_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 24px; */
+}
+
+.sub_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.prize_winners_baner_sec1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.prize_winners_baner_sec2 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.prize_winners_baner_sec3 {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.prize_winner_card_prizing {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 65px;
+  color: #fcc100;
+
+  margin-top: 25%;
+}
+
+.prize_winner_card {
+  height: 463.98px;
+  /* width: 463.98px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  /* background-color: #474747; */
+  padding: 10px;
+}
+.prize_winner_card2 {
+  height: 463.98px;
+  width: 463.98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  /* background-color: #474747; */
+  padding: 10px;
+}
+
+.prize_winner_card_sec2 {
+  width: 463.98px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prize_winner_card_position_no {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 65px;
+}
+.prize_winner_card_position {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+.card1_icon1 {
+  height: 50%;
+  width: 50%;
+  background: url(../src/asset/Prizes/icon/Cup.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.prize_winner_card2_icon1 {
+  height: 50%;
+  width: 50%;
+  /* background: url(../src/asset/Prizes/icon/Cup.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.prize_winner_card_sec3 {
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prize_winner_card_sec3 h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fcc100;
+}
+
+.view_more_button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+
+.view_more_button:hover {
+  color: #000;
+}
+/* checking end */
+
+/* @media screen and (max-width: 1440px) {
+  .apply_baner_sec4 {
+    top: 1900px;
+  }
+} */
+
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  /* gap: 24px; */
+}
+.btn_parent {
+  position: absolute;
+  right: 00px;
+  top: 10px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+}
+
+.flex {
+  position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+  .prize_winners_baner_sec1,
+  .prize_winners_baner_sec3,
+  .carousel {
+    max-width: 1200px;
+  }
+  .prize_winners_baner_sec2 {
+    width: 90vw;
+  }
+
+  .prize_winner_card {
+    height: 380.98px;
+  }
+  .prize_winner_card2 {
+    width: 380.98px;
+    height: 380.98px;
+  }
+
+  .prize_winner_card_sec2 {
+    width: 380.98px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* .carousel {
+    padding: 0 20px !important;
+  } */
+  .btn_parent {
+    right: 10px;
+    gap: 30px;
+  }
+
+  .sub_parent {
+    padding: 0 20px;
+  }
+
+  .prize_winners_baner_sec2 p,
+  .winners_sec2 p {
+    text-align: start;
+  }
+  .prize_winners_baner_sec3,
+  .winners_sec3 {
+    justify-content: center;
+  }
+  .prize_winner_card {
+    height: 363px;
+  }
+  .prize_winner_card2 {
+    width: 363px;
+    height: 363px;
+  }
+
+  .prize_winner_card_sec2 {
+    width: 363px;
+  }
+
+  .prize_winner_card_position_no {
+    font-size: 34px;
+  }
+  .prize_winner_card_position {
+    font-size: 18px;
+    line-height: 17px;
+  }
+  .prize_winner_card_prizing {
+    font-size: 34px;
+    line-height: 25px;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .prize_winner_card {
+    height: 337px;
+  }
+  .prize_winner_card2 {
+    width: 337px;
+    height: 337px;
+  }
+
+  .prize_winner_card_sec2 {
+    width: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .prize_winner_card2 {
+    width: 288px;
+    height: 288px;
+  }
+  .prize_winner_card {
+    height: 288px;
+  }
+
+  .prize_winner_card_sec2 {
+    width: 288px;
+  }
+}

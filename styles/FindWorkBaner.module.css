@@ -1,0 +1,166 @@
+.find_work_container {
+  width: 100%;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.section1,
+.section2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  height: 463.98px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  height: 260px;
+  width: 100%;
+}
+
+.card_child {
+  width: 100%;
+  height: 271.5px;
+  background-color: black;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.heading h2,
+.heading h3,
+.heading h4,
+.heading h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.discription {
+  width: 100%;
+  height: 110px;
+  /* margin-bottom: 36px; */
+  overflow: hidden;
+}
+
+.date {
+  position: absolute;
+  bottom: 10px;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  /* gap: 24px; */
+}
+
+.btn_parent {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+}
+@media screen and (max-width: 1440px) {
+  .find_work_container {
+    max-width: 1200px;
+  }
+
+  .card {
+    height: 510.54px;
+  }
+
+  .carousel {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel {
+    padding: 0 20px;
+  }
+  .btn_parent {
+    right: 10px;
+    gap: 30px;
+  }
+
+  .find_work_container {
+    margin-bottom: 24px;
+  }
+
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .card {
+    height: 470px;
+  }
+
+  .card img {
+    height: 215px;
+  }
+
+  .card_child {
+    padding: 18px;
+    height: 255.5px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .card {
+    width: 337px !important;
+    height: 467px;
+  }
+
+  .card img {
+    height: 189px;
+  }
+
+  .card_child {
+    height: 277.5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card {
+    width: 288px !important;
+    height: 462px;
+  }
+
+  .card img {
+    height: 162px;
+  }
+
+  .card_child {
+    height: 300px;
+  }
+}

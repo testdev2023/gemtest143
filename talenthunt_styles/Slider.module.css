@@ -1,0 +1,33 @@
+.sliderContainer {
+  height: 745px;
+  /* height: ; */
+  width: 50%;
+}
+.carousel div {
+  /* height: 950px; */
+  height: 824px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide1 {
+  background: url(../src/asset/sliderImgs/slide1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  background: url(../src/asset/sliderImgs/slide2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide3 {
+  background: url(../src/asset/sliderImgs/slide3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

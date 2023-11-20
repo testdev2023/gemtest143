@@ -1,0 +1,138 @@
+.news_baner_container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 24px;
+}
+
+.news_baner_sec1 {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news_baner_sec2 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_image_div {
+  height: 463.98px;
+  position: relative;
+}
+.news_image_div img {
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(62, 65, 65, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.news_image_div h4 {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  margin-bottom: 12px;
+}
+
+.news_image_div a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  /* gap: 24px; */
+}
+.btn_parent {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .news_baner_sec1,
+  .news_baner_sec2 {
+    max-width: 1200px;
+  }
+
+  .carousel {
+    max-width: 1200px;
+  }
+
+  .news_image_div {
+    height: 380.98px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .btn_parent {
+    right: 10px;
+    gap: 30px;
+  }
+
+  .carousel {
+    padding: 0 20px;
+  }
+
+  .news_baner_container {
+    margin-bottom: 24px;
+  }
+
+  .news_baner_sec2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    padding: 18px;
+  }
+
+  .news_image_div {
+    height: 363px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .news_image_div {
+    height: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .news_image_div {
+    height: 288px;
+  }
+}

@@ -1,0 +1,569 @@
+.label :hover {
+  cursor: pointer;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddPhotoAlternateIcon {
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  fill: #0f0e13;
+  font-size: 80px;
+}
+
+.link {
+  /* margin: 14px 0; */
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.link:hover {
+  color: #fcc100;
+}
+
+.signup_step1 {
+  height: 100%;
+  width: 100%;
+}
+.signup_container {
+  height: 100%;
+  background: rgba(15, 14, 19, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.signup_sub_container {
+  /* margin-top: 20px; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup_sub_container > h1 {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.signup_sub_container > p {
+  margin-bottom: 10px;
+}
+
+.signup_form {
+  height: 100%;
+  width: 80%;
+}
+
+.signup_form_sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  margin-bottom: 10px;
+}
+
+.signup_form_sec1 > h1 {
+  margin-bottom: 5px;
+}
+
+.signup_form_sec2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.signup_form_sec2 > div {
+  width: 46%;
+}
+
+.signup_form_sec3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+}
+
+.signup_form_sec3 div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup_form_sec3 > div > label {
+  width: 45%;
+}
+
+.checkbox {
+  width: 100% !important;
+}
+
+.signup_form_sec3 > div > label > input {
+  /* margin-bottom: px; */
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(42, 42, 42, 1);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 98%;
+  padding-left: 10px;
+}
+
+.signup_form_sec4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.signup_form_sec4 > label {
+  margin-bottom: 10px;
+}
+.signup_form_sec4 > label > input {
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(42, 42, 42, 1);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.signup_form_sec4 input::-webkit-outer-spin-button,
+.signup_form_sec4 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.errorPra {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+.signup_form_btn {
+  width: 100%;
+  /* height: 45px; */
+  height: 50px;
+  display: flex;
+  margin-bottom: 10px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+
+.signup_form_btn:hover {
+  color: #000;
+}
+.signup_form_sec5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_form_sec5 p {
+  margin-right: 5px;
+}
+.signup_form_sec5 a {
+  color: #fcc100;
+}
+
+.p_number {
+  margin-bottom: 10px;
+}
+
+.p_number > input {
+  height: 48px;
+  width: 100% !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgba(42, 42, 42, 1) !important;
+  font-style: normal;
+  font-weight: 100 !important;
+  font-size: 15px !important;
+  line-height: 26px;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.p_number > div {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div :nth-child(2) div {
+  background-color: #fff !important;
+  border: none !important;
+  color: #fff !important;
+}
+.p_number div:hover {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div ul {
+  background-color: #000 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.p_number > div ul::-webkit-scrollbar {
+  /* Styles for the scrollbar itself */
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb {
+  /* Styles for the scrollbar thumb */
+  background-color: #2a2a2a; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb:hover {
+  /* Styles when hovering over the scrollbar thumb */
+  background-color: #fcc100; /* Color of the scrollbar thumb on hover */
+}
+
+.p_number > div ul::-webkit-scrollbar-thumb:active {
+  /* Styles when clicking on the scrollbar thumb */
+  background-color: #fcc100; /* Color of the scrollbar thumb on active/click */
+}
+
+.p_number > div ul li:hover {
+  background-color: #fcc100 !important;
+  border: none !important;
+  color: #fff !important;
+}
+.p_number > div ul li:focus {
+  background-color: #fcc100 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.signup_form_sec3 > div > label > input::placeholder,
+.signup_form_sec3_2 > div > label > input::placeholder,
+.signup_form_sec4 > label > input::placeholder,
+.p_number input::placeholder {
+  color: #7a7a7a;
+}
+
+/* .signup_form_sec2 div {
+  width: 45%;
+  border-bottom: 2px solid rgba(42, 42, 42, 1);
+} */
+
+.select {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #7a7a7a;
+  border-bottom: 2px solid rgba(42, 42, 42, 1);
+}
+
+.option {
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: rgba(15, 14, 19, 1);
+  /* color: #7a7a7a; */
+  padding: 8px; /* Add padding for normal state */
+  transition: background-color 0.2s; /* Add smooth transition for background color */
+  margin: 10px 0;
+}
+.select::-webkit-scrollbar {
+  /* Styles for the scrollbar itself */
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.select::-webkit-scrollbar-thumb {
+  /* Styles for the scrollbar thumb */
+  background-color: #2a2a2a; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.select::-webkit-scrollbar-thumb:hover {
+  /* Styles when hovering over the scrollbar thumb */
+  background-color: #fcc100; /* Color of the scrollbar thumb on hover */
+}
+
+.select::-webkit-scrollbar-thumb:active {
+  /* Styles when clicking on the scrollbar thumb */
+  background-color: #fcc100; /* Color of the scrollbar thumb on active/click */
+}
+
+.signup_form_sec3_2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.datePickerContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.signup_form_sec3_2 > div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  /* border-bottom: 1px solid rgba(42, 42, 42, 1); */
+  padding-bottom: 10px;
+}
+
+.signup_form_sec3_2 > div > label {
+  width: 100%;
+}
+
+.signup_form_sec3_2 > div > label > input {
+  /* margin-bottom: px; */
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(42, 42, 42, 1);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 98%;
+  padding-left: 10px;
+}
+
+.date {
+  padding-left: 10px;
+  color: #7a7a7a;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-size: 20px;
+  margin-top: 10px;
+}
+.date::placeholder {
+  color: #7a7a7a !important;
+}
+
+.password {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-left: 10px;
+  /* font-size: 20px; */
+  margin-top: 20px;
+  height: 100%;
+}
+
+.signup_form_sec3 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.signup_form_sec3 div {
+  /* margin-bottom: 50px; */
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  /* align-items: flex-end; */
+  /* justify-content: center; */
+}
+/* .label p {
+    margin: 0px;
+  } */
+
+.errorPra {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+.checkbox {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* margin-right: 5px; */
+  /* margin: 20px 20px 0 0; */
+}
+
+.checkbox a:hover {
+  color: #fcc100;
+}
+
+.form_group {
+  display: block;
+  /* margin-bottom: 15px; */
+}
+
+.form_group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form_group label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.form_group label:before {
+  content: "";
+  /* -webkit-appearance: none; */
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form_group input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #fcc100;
+
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.login_form_password {
+  display: flex;
+  flex-direction: revert;
+  width: 100%;
+  /* height: 10%; */
+  margin-bottom: 10px;
+}
+.login_form_password > input {
+  /* margin-bottom: 37px; */
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(42, 42, 42, 1);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 100%;
+}
+.passwordvisible_styling {
+  margin-top: 12px;
+  text-align: center;
+  display: flex;
+  position: relative;
+  /* margin-bottom: 30px; */
+}
+
+.form_group input::placeholder,
+.login_form_password > input::placeholder {
+  color: #7a7a7a;
+}
+
+@media only screen and (max-width: 1024px) {
+  .signup_form_sec3 > div > label > input {
+    font-size: 14px !important;
+    /* line-height: 24px; */
+  }
+  .signup_form_sec4 > label > input {
+    font-size: 14px !important;
+    /* line-height: 24px; */
+  }
+
+  .steper_parent {
+    width: 90%;
+  }
+
+  .signup_form_sec3 {
+    margin-top: 00px;
+  }
+  .signup_form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signup_form_sec1 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .signup_form_btn {
+    margin-top: 30px;
+    height: 40px;
+    width: 70%;
+  }
+  .signup_sub_container a img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  .signup_form_sec3_2 {
+    flex-direction: column;
+  }
+  .signup_form_sec3_2 div {
+    width: 100%;
+  }
+  .signup_form_sec3 > div > label {
+    width: 100%;
+  }
+}

@@ -1,0 +1,395 @@
+.gparent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent {
+  width: 1440px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 24px;
+}
+
+.sub_parent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.parent1 {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  /* border: 1px solid white; */
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  width: 400px;
+  background: #2a2a2a;
+  transition: background 0.6s ease;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 0 10px 5px #fcc100;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.wrapper .profile {
+  /* margin-top: 2.2em; */
+  position: relative;
+}
+
+.wrapper .profile .check {
+  position: relative;
+  right: -3em;
+  bottom: 2em;
+}
+.wrapper .profile .check img {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  background: linear-gradient(to bottom right, #c90a6d, #ff48a0);
+}
+.wrapper .profile img {
+  width: 124px;
+  height: 124px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 1.5em; */
+  border-radius: 100%;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.flex > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.activities_parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.flex2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #2a2a2a;
+  padding: 20px 10px;
+}
+
+.flex2 span {
+  text-align: center;
+  color: #fcc100;
+  cursor: pointer;
+}
+.status_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.status {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+
+.status:hover {
+  color: #000;
+}
+
+.stats_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-shrink: 0; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* gap: 30px 10px; */
+  gap: 24px;
+}
+
+.card {
+  width: 463.98px;
+  height: 80px;
+  background-color: #2a2a2a;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 1s;
+}
+
+.card:hover {
+  background-color: transparent;
+  /* transform: scale(1.1); */
+  box-shadow: 0 0 10px 5px #fcc100;
+
+  cursor: pointer;
+}
+
+.card img {
+  transition: 0.5s;
+}
+
+.card img:hover {
+  background-color: transparent;
+
+  transform: scale(1.3);
+  /* box-shadow: 0 0 10px 5px #fcc100; */
+
+  cursor: pointer;
+}
+
+.latest_offer_parent {
+  width: 708px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px 0;
+  box-shadow: 0 0 10px 5px #fcc100;
+  min-height: 360px;
+}
+
+.latest_offer_parent h1 {
+  margin-bottom: 20px;
+}
+
+.flex1 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: 0.5s;
+  /* margin-bottom: 24px; */
+}
+
+.latest_offer_parent a {
+  transition: 0.5s;
+}
+.latest_offer_parent a:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 10px 5px #fcc100;
+}
+.latest_offer_parent > div:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px #fcc100;
+}
+
+.flex1 img {
+  height: 75px;
+  width: 130px;
+}
+.flex1 p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.referrel_parent {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+  background-color: #2a2a2a;
+  padding: 20px 10px;
+}
+.referrel_parent2 {
+  display: flex;
+  align-items: center;
+
+  gap: 0 40px;
+  background-color: #2a2a2a;
+  padding: 0px 10px 0px 10px;
+}
+
+.referrel_parent input {
+  width: 300px;
+  height: 48px;
+  background-color: #3f3f3f;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.referrel_parent input::placeholder {
+  color: #6a6a6a;
+}
+
+.referrel_parent button {
+  width: 150px;
+  display: flex;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+
+.referrel_parent button:hover {
+  color: #000;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  padding: 8px;
+  background-color: #fcc100;
+  color: #ffffff;
+  border-radius: 4px;
+  z-index: 999999;
+}
+
+.disabledButton {
+  color: black;
+  font-size: 16px;
+}
+@media screen and (max-width: 1440px) {
+  .parent,
+  .parent1 {
+    width: 1200px;
+  }
+
+  .card {
+    width: 382.98px;
+    height: 80px;
+  }
+
+  .latest_offer_parent {
+    width: 630px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .parent,
+  .parent1 {
+    width: 90vw;
+  }
+
+  .sub_parent {
+    width: 100%;
+  }
+
+  .parent,
+  .parent1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .referrel_parent,
+  .referrel_parent2 {
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .parent {
+    padding-top: 80px;
+  }
+  .parent1 {
+    gap: 24px;
+  }
+
+  .wrapper {
+    width: 363px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .latest_offer_parent {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .parent,
+  .parent1 {
+    width: 337px;
+  }
+
+  .referrel_parent,
+  .referrel_parent2 {
+    width: 337px;
+  }
+
+  .wrapper {
+    width: 337px;
+  }
+
+  .card {
+    width: 337px;
+  }
+
+  .latest_offer_parent {
+    width: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .parent,
+  .parent1 {
+    width: 300px;
+  }
+
+  .referrel_parent {
+    flex-direction: column;
+    gap: 24px;
+    width: 300px;
+  }
+
+  .wrapper {
+    width: 288px;
+  }
+
+  .card {
+    width: 288px;
+  }
+
+  .latest_offer_parent {
+    width: 288px;
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+.next
+dev2ent
+.env
+.env-client-url

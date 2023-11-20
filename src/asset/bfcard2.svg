@@ -1,0 +1,24 @@
+<svg width="284" height="139" viewBox="0 0 284 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1282_3356" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="284" height="139">
+<rect width="283.004" height="139" fill="url(#paint0_linear_1282_3356)"/>
+</mask>
+<g mask="url(#mask0_1282_3356)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9858 21.3102L95.0834 34.8293L55.9283 -69.8836L3.71267 -6.16327L3.63809 -6.36272L-40.8574 47.9365L28.2499 59.4568L13.9858 21.3102Z" fill="#FFB044"/>
+</g>
+<mask id="mask1_1282_3356" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="284" height="139">
+<rect x="284" y="139" width="283.004" height="139" transform="rotate(180 284 139)" fill="url(#paint1_linear_1282_3356)"/>
+</mask>
+<g mask="url(#mask1_1282_3356)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M270.014 117.69L188.917 104.171L228.072 208.884L280.287 145.163L280.362 145.363L324.857 91.0635L255.75 79.5432L270.014 117.69Z" fill="#EA7B38"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1282_3356" x1="0" y1="0" x2="239.049" y2="193.345" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CCE3EC"/>
+<stop offset="1" stop-color="#AEC1D4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1282_3356" x1="284" y1="139" x2="523.049" y2="332.345" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CCE3EC"/>
+<stop offset="1" stop-color="#AEC1D4"/>
+</linearGradient>
+</defs>
+</svg>

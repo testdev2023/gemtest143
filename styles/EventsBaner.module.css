@@ -1,0 +1,209 @@
+.events_baner_container {
+  width: 100%;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40px; */
+  margin-bottom: 50px;
+  gap: 24px;
+}
+
+.events_baner_sec1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.events_baner_sec2 {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.events_baner_nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.events_baner_nav_links:focus {
+  background-color: #fcc100;
+  color: #fff;
+}
+
+.events_baner_nav_links:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #b38206;
+}
+
+.events_baner_sec3 {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+}
+
+.events_baner_card {
+  height: 463.98px;
+  position: relative;
+}
+
+.events_baner_card_link {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform;
+}
+
+.events_baner_card:hover {
+  transform: scale(1.04);
+}
+
+.card_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  /* margin-bottom: 20px; */
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1440px;
+  /* gap: 24px; */
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(62, 65, 65, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.card_title {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  margin-bottom: 12px;
+}
+
+.view_more_button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+}
+
+.view_more_button:hover {
+  color: #000;
+}
+
+.btn_parent {
+  position: absolute;
+  right: 00px;
+  top: 10px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  /* .btn_parent {
+    right: 150px;
+  } */
+
+  .events_baner_container {
+    max-width: 1200px;
+  }
+
+  .events_baner_card {
+    height: 380.98px;
+  }
+
+  .carousel {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel {
+    padding: 0 20px;
+  }
+  .btn_parent {
+    right: 10px;
+    gap: 30px;
+  }
+
+  .events_baner_sec3 {
+    justify-content: center;
+  }
+  .content {
+    padding: 18px;
+  }
+
+  .events_baner_container {
+    margin-bottom: 24px;
+  }
+
+  .events_baner_sec3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .events_baner_card {
+    height: 363px;
+    margin: 0;
+  }
+
+  .view_more_button {
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .events_baner_card {
+    height: 337px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .events_baner_card {
+    height: 288px;
+  }
+}

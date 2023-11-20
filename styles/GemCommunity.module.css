@@ -1,0 +1,119 @@
+.gem_community_container {
+  width: 100%;
+  /* height: 781px; */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url(../src/asset/communitybanerBG.png); */
+  background-image: url(../src/asset/communitybanerBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 100px 20px 50px;
+  gap: 88px;
+}
+
+.gem_community_sec1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 24px;
+  /* margin: 20px 0; */
+}
+
+.gem_community_sec1 h1 {
+  padding: 0 150px;
+}
+
+.gem_community_sec1 a {
+  display: flex;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: var(--themeGradient);
+  box-shadow: 5px 5px 5px 0px #000000;
+  cursor: pointer;
+  min-width: 300px;
+}
+.gem_community_sec1 a:hover h3 {
+  color: #000;
+}
+
+.gem_community_sec2 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gem_community_sec2 h5 {
+  color: #d5d7d7;
+}
+
+.flex {
+  display: flex;
+  gap: 24px;
+}
+
+.icon {
+  background-color: #000;
+  box-shadow: 3px 3px 5px 0px #000000;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.icon img {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .gem_community_sec1,
+  .gem_community_sec2,
+  .gem_community_sec3 {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .gem_community_sec1 a {
+    min-width: 150px;
+  }
+  .gem_community_sec1 h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .gem_community_sec1 h1 {
+    padding: 0 0px;
+  }
+
+  .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .icon img {
+    height: 20px;
+    width: 20px;
+  }
+}

@@ -1,0 +1,100 @@
+#container {
+  margin: 0 auto;
+}
+
+/* p {
+  text-align: center;
+} */
+
+.nav {
+  width: 100vw;
+  background-color: #000000b8;
+}
+.nav_dark {
+  transition: 0.2s;
+  transform: rotate(360);
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+.nav ul li {
+  display: inline-block;
+  width: 130px;
+}
+
+.nav a {
+  display: block;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Hide Dropdowns by Default */
+.nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px; /* the height of the main .nav */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+/* Display Dropdowns on Hover */
+.nav ul .li:hover > ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+.nav ul ul .li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+.nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+/* Change this in order to change the Dropdown symbol */
+
+.li_img {
+  height: 20px;
+  z-index: 999;
+  position: relative;
+  bottom: 0px;
+}
+
+.li_img a {
+  padding: 0;
+  padding-top: 10px;
+}
+
+.li_img img {
+  width: 130px;
+  height: 130px;
+}
+
+.li_img a:hover {
+  background-color: transparent;
+}
+@media screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+}
+
+.activeOption {
+  color: #fcc100 !important;
+}

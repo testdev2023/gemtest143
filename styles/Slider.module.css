@@ -1,0 +1,67 @@
+.slide1 {
+  background: url(../src/asset/sliderImgs/slide1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  background: url(../src/asset/sliderImgs/slide2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide3 {
+  background: url(../src/asset/sliderImgs/slide3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide_kids {
+  background: url(../src/asset/sliderImgs/sliderkids.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliderContainer {
+  height: 100%;
+  /* border: 1px solid green; */
+  width: 50%;
+}
+
+.sliderContainer {
+  height: 100%;
+}
+.carousel {
+  height: 100%;
+}
+.carousel div {
+  /* border: red solid 5px; */
+  height: 100%;
+}
+
+.sliderContainer > div :nth-child(1) {
+  height: 100% !important;
+  /* border: white 5px solid; */
+}
+.sliderContainer > div:nth-child(1) li {
+  height: 100% !important;
+  /* border: purple 5px solid; */
+}
+
+/* .sliderContainer {
+  height: 90vh;
+  width: 50%;
+}
+.carousel div {
+  height: 85vh;
+  width: 100%;
+} */
+
+@media screen and (max-width: 1920px) {
+}
+@media only screen and (max-width: 1024px) {
+  .sliderContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ent_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gif_img {
+  height: 9%;
+  width: 5%;
+}
+
+.gif_parent {
+  z-index: 9999999;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+  .gif_img {
+    height: 9%;
+    width: 15%;
+  }
+}

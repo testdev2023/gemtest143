@@ -1,0 +1,117 @@
+.submit_now_main {
+  width: 100%;
+  /*  */
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  /* background-color: #000000; */
+}
+.project_submit_sec {
+  width: 100%;
+  max-width: 1440px;
+  padding: 24px 0;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.video_parent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.video_di {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.video_di:hover .playIcon {
+  display: flex;
+}
+
+.video_div {
+  background-color: black;
+  height: 500px;
+  width: 1008px;
+}
+
+.card_child {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* height: 500px; */
+}
+
+.bank_section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.playIcon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.playIcon svg {
+  background-color: #fcc100;
+  font-size: 50px;
+  fill: #000;
+}
+
+.icon {
+  font-size: 60px;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}
+.icon:hover {
+  color: #fcc100;
+  fill: #fcc100;
+}
+
+.bank_recept {
+  height: 300px;
+  width: 500px;
+}
+
+@media screen and (max-width: 1440px) {
+  .project_submit_sec {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .project_submit_sec {
+    padding: 0 20px;
+  }
+  .video_div {
+    width: 100%;
+    height: 300px;
+  }
+
+  .playIcon {
+    left: 45%;
+  }
+}

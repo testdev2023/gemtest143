@@ -1,0 +1,189 @@
+.gparent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reward_parent {
+  padding-top: 200px;
+  width: 100%;
+  max-width: 1440px;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  /* height: 100vh; */
+}
+
+.container {
+  width: 100%;
+}
+
+.reward_parent h1 {
+  margin-bottom: 30px;
+}
+
+.rwd_table {
+  margin: auto;
+  /* min-width: 300px; */
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rwd_table th {
+  border-top: none;
+  background: #f1b001;
+  color: #fff;
+}
+
+.rwd_table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #2a2a2a;
+}
+
+.rwd_table tr:nth-child(odd):not(:first-child) {
+  background-color: #2a2a2a;
+  /* background-color: transparent; */
+}
+
+.rwd_table th {
+  display: none;
+}
+
+.rwd_table td {
+  display: block;
+}
+
+.rwd_table td:first-child {
+  margin-top: 0.5em;
+}
+
+.rwd_table td:last-child {
+  margin-bottom: 0.5em;
+}
+
+.rwd_table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+  color: #f1b001;
+}
+
+.rwd_table th,
+.rwd_table td {
+  text-align: left;
+}
+
+.rwd_table {
+  color: #333;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+
+.rwd_table tr {
+  border-color: #bfbfbf;
+}
+
+.rwd_table th,
+.rwd_table td {
+  padding: 0.5em 1em;
+}
+@media screen and (max-width: 601px) {
+  .rwd_table tr:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .rwd_table tr:hover {
+    background-color: transparent;
+  }
+  .rwd_table td:before {
+    display: none;
+  }
+  .rwd_table th,
+  .rwd_table td {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+  }
+  .rwd_table th:first-child,
+  .rwd_table td:first-child {
+    padding-left: 0;
+  }
+  .rwd_table th:last-child,
+  .rwd_table td:last-child {
+    padding-right: 0;
+  }
+  .rwd_table th,
+  .rwd_table td {
+    padding: 1em !important;
+  }
+}
+
+/* THE END OF THE IMPORTANT STUFF */
+
+/* Basic Styling */
+
+.container {
+  display: block;
+  text-align: center;
+}
+
+@-webkit-keyframes leftRight {
+  0% {
+    -webkit-transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(-10px);
+  }
+  75% {
+    -webkit-transform: translateX(10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+@keyframes leftRight {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*
+    Don't look at this last part. It's unnecessary. I was just playing with pixel gradients... Don't judge.
+*/
+/*
+@media screen and (max-width: 601px) {
+  .rwd_table tr {
+    background-image: -webkit-linear-gradient(left, #428bca 137px, #f5f9fc 1px, #f5f9fc 100%);
+    background-image: -moz-linear-gradient(left, #428bca 137px, #f5f9fc 1px, #f5f9fc 100%);
+    background-image: -o-linear-gradient(left, #428bca 137px, #f5f9fc 1px, #f5f9fc 100%);
+    background-image: -ms-linear-gradient(left, #428bca 137px, #f5f9fc 1px, #f5f9fc 100%);
+    background-image: linear-gradient(left, #428bca 137px, #f5f9fc 1px, #f5f9fc 100%);
+  }
+  .rwd_table tr:nth-child(odd) {
+    background-image: -webkit-linear-gradient(left, #428bca 137px, #ebf3f9 1px, #ebf3f9 100%);
+    background-image: -moz-linear-gradient(left, #428bca 137px, #ebf3f9 1px, #ebf3f9 100%);
+    background-image: -o-linear-gradient(left, #428bca 137px, #ebf3f9 1px, #ebf3f9 100%);
+    background-image: -ms-linear-gradient(left, #428bca 137px, #ebf3f9 1px, #ebf3f9 100%);
+    background-image: linear-gradient(left, #428bca 137px, #ebf3f9 1px, #ebf3f9 100%);
+  }
+}*/
+@media screen and (max-width: 1440px) {
+  .reward_parent {
+    max-width: 1200px;
+  }
+}
