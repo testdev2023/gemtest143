@@ -74,11 +74,11 @@ export default function News() {
             <Link href="/news">News Center</Link>
           </h2>
 
-          <div className={styles.btn_parent}>
+          {/* <div className={styles.btn_parent}>
             <div className="swiper-button-prev" onClick={slidePrev}></div>
-            {/* Custom next button */}
+            
             <div className="swiper-button-next" onClick={slideNext}></div>
-          </div>
+          </div> */}
         </div>
         {newsLoder ? (
           // <div className={styles.carousel}></div>
@@ -105,6 +105,7 @@ export default function News() {
                 slidesPerView: 1,
               },
             }}
+            pagination={{ clickable: true }}
           >
             {news &&
               news?.slice(0, 15).map((item, index) => (
