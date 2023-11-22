@@ -86,7 +86,7 @@ export default function News() {
             className={styles.carousel}
             ref={swiperRef} // Assign the swiperRef to the Swiper component
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            slidesPerView={3}
+            slidesPerView={2}
             spaceBetween={24}
             breakpoints={{
               // 1920: {
