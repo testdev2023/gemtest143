@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export default function Slider() {
-  const responsive = {
+  const responsive = { 
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
       items: 2,
