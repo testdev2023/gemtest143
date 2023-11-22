@@ -96,7 +96,7 @@ export default function TalentsBnaer() {
                     <h3 className="name_heading">{item?.name}</h3>
                    
                     {item?.gender === 'Male' && (
-                      <h3 className="name_heading">Actors</h3>
+                      <h3 className="name_heading">Actor</h3>
                     )}
                     {item?.gender === 'Female' && (
                       <h3 className="name_heading">Actress</h3>

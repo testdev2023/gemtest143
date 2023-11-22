@@ -333,7 +333,10 @@ input {
 .EventsBaner_events_baner_card__hsKfm:hover {
   transform: none !important;
 }
-
+.EventsBaner_events_baner_card__hsKfm {
+  height: 100% !important;
+  position: relative;
+}
 .yellow {
   color: #fcc100;
 }
