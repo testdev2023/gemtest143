@@ -337,6 +337,9 @@ input {
   height: 100% !important;
   position: relative;
 }
+.NewsBaner_news_image_div__DIHQx img {
+    object-fit: fill !important;
+}
 .yellow {
   color: #fcc100;
 }
