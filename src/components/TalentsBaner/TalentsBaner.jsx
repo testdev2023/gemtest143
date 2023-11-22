@@ -7,6 +7,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Flags from 'react-flags-select';
+import 'react-flags-select/css/react-flags-select.css';
 
 export default function TalentsBnaer() {
   const [talents, setTalents] = useState([]);
@@ -90,11 +92,11 @@ export default function TalentsBnaer() {
                       src={item?.photoURL}
                       alt="talents slide_image"
                     />
-                    <br/>
-                    <h3 className="name_heading">{item?.country}</h3>
-                   
+                    <Flags
+                      country={item?.countryCode}  // Assuming your talent object has a countryCode property
+                      className={styles.flag_icon}
+                    />
                     <h3 className="name_heading">{item?.name}</h3>
-                   
                     {item?.gender === 'Male' && (
                       <h3 className="name_heading">Actors</h3>
                     )}
@@ -105,7 +107,6 @@ export default function TalentsBnaer() {
                 </SwiperSlide>
               ))}
             </Swiper>
-         
           </div>
         )}
       </div>
