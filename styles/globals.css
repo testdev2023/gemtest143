@@ -323,7 +323,7 @@ input {
 }
 
 .swiper-pagination {
-  position: relative;
+  position: relative !important;
   text-align: center;
   transition: opacity .3s;
   transform: translateZ(0);
