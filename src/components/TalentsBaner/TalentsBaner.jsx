@@ -57,12 +57,6 @@ export default function TalentsBnaer() {
           <h2 className="color_yellow">
             <Link href="/talent">Talent</Link>
           </h2>
-
-          <div className={styles.btn_parent}>
-            <div className="swiper-button-prev" onClick={slidePrev}></div>
-            {/* Custom next button */}
-            <div className="swiper-button-next" onClick={slideNext}></div>
-          </div>
         </div>
         {talentsLoader && (
           <div className={styles.carousel}>
@@ -72,9 +66,6 @@ export default function TalentsBnaer() {
               slidesPerView={5}
               spaceBetween={24}
               breakpoints={{
-                // 1920: {
-                //   slidesPerView: 5,
-                // },
                 1440: {
                   slidesPerView: 5,
                 },
@@ -88,6 +79,7 @@ export default function TalentsBnaer() {
                   slidesPerView: 2,
                 },
               }}
+              pagination={{ clickable: true }}
               // loop={true}
             >
               {talents?.slice(0, 15).map((item, index) => (
@@ -98,14 +90,24 @@ export default function TalentsBnaer() {
                       src={item?.photoURL}
                       alt="talents slide_image"
                     />
+                    <br/>
+                    <h3 className="name_heading">{item?.country}</h3>
+                   
                     <h3 className="name_heading">{item?.name}</h3>
+                   
+                    {item?.gender === 'Male' && (
+                      <h3 className="name_heading">Actors</h3>
+                    )}
+                    {item?.gender === 'Female' && (
+                      <h3 className="name_heading">Actress</h3>
+                    )}
                   </Link>
                 </SwiperSlide>
               ))}
             </Swiper>
+         
           </div>
         )}
-        {/* Custom previous button */}
       </div>
     </>
   );
