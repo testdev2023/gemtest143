@@ -144,7 +144,10 @@ export default function EventsBaner() {
                       />
 
                       <div className={styles.content}>
-                        <h4 className={styles.card_title}>{cardData?.title}</h4>
+                      <p className={styles.date_time}>
+                       {timeDate(cardData?.start_date)}
+                      </p>
+                          <h4 className={styles.card_title}>{cardData?.title}</h4>
                         <Link
                           className="color_yellow"
                           href={`/eventsdetails?slug=${cardData.slug}`}
