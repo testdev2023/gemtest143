@@ -81,11 +81,10 @@ export default function EventsBaner() {
             <Link href="/events">Events </Link>{" "}
           </h2>
 
-          <div className={styles.btn_parent}>
+          {/* <div className={styles.btn_parent}>
             <div className="swiper-button-prev" onClick={slidePrev}></div>
-            {/* Custom next button */}
             <div className="swiper-button-next" onClick={slideNext}></div>
-          </div>
+          </div> */}
         </div>
         {eventsLoader ? (
           <div className={styles.events_baner_sec3}>
@@ -100,10 +99,10 @@ export default function EventsBaner() {
                 //   slidesPerView: 5,
                 // },
                 1440: {
-                  slidesPerView: 3,
+                  slidesPerView: 1,
                 },
                 1024: {
-                  slidesPerView: 3,
+                  slidesPerView: 1,
                 },
                 768: {
                   slidesPerView: 2,
@@ -112,6 +111,7 @@ export default function EventsBaner() {
                   slidesPerView: 1,
                 },
               }}
+              pagination={{ clickable: true }}
             >
               {events?.map((cardData, index) => (
                 <SwiperSlide key={index}>
