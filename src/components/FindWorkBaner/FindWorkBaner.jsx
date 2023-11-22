@@ -61,11 +61,11 @@ export default function FindWorkBaner() {
               <div className={styles.section1}>
                 <h1 className="yellow">Find Work</h1>
 
-                <div className={styles.btn_parent}>
+                {/* <div className={styles.btn_parent}>
                   <div className="swiper-button-prev" onClick={slidePrev}></div>
-                  {/* Custom next button */}
+      
                   <div className="swiper-button-next" onClick={slideNext}></div>
-                </div>
+                </div> */}
               </div>
               <div className={styles.section2}>
                 <Swiper
@@ -91,6 +91,7 @@ export default function FindWorkBaner() {
                       slidesPerView: 1,
                     },
                   }}
+                  pagination={{ clickable: true }}
                 >
                   {findWork.slice(0, 15).map((item, i) => (
                     <SwiperSlide key={i}>

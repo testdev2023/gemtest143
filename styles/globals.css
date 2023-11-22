@@ -330,6 +330,10 @@ input {
   z-index: 10;
 }
 
+.EventsBaner_events_baner_card__hsKfm:hover {
+  transform: none !important;
+}
+
 .yellow {
   color: #fcc100;
 }
