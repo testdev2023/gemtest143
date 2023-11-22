@@ -6,11 +6,11 @@ export default function Slider() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 1,
+      items: 2,
     },
     desktop: {
       breakpoint: { max: 5000, min: 1024 },
-      items: 1,
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
