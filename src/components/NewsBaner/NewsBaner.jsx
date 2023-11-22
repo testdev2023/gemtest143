@@ -127,7 +127,8 @@ export default function News() {
                       alt="news picture"
                       priority={true}
                     />
-                    <div className={styles.content}>
+                  </div>
+                  <div className={styles.content}>
                       <h4>{item?.title}</h4>
                       <Link
                         className="color_yellow"
@@ -136,7 +137,6 @@ export default function News() {
                         View Details
                       </Link>
                     </div>
-                  </div>
                 </SwiperSlide>
               ))}
           </Swiper>
