@@ -7,12 +7,13 @@ import Loder from "../Loder";
 import Link from "next/link";
 import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import SwiperCore, { Pagination, A11y } from "swiper";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import { toast } from "react-toastify";
+import "swiper/css/a11y";
 import { toast, ToastContainer } from "react-toastify";
+
+SwiperCore.use([Pagination, A11y]);
 
 export default function News() {
   const router = useRouter();
@@ -24,16 +25,12 @@ export default function News() {
   const GetNews = async () => {
     try {
       await axios
-        .get(
-          // `${baseUrl}/api/news`
-          process.env.NEXT_PUBLIC_BASE_URL + "/api/news"
-        )
+        .get(process.env.NEXT_PUBLIC_BASE_URL + "/api/news")
         .then((response) => {
           setNews(response?.data?.response?.data);
           setNewsLoder(true);
         })
         .catch((error) => {
-          // alert(error);
           toast.error(error, { autoClose: 5000 });
         });
     } catch (error) {
@@ -46,23 +43,10 @@ export default function News() {
   }, []);
 
   useEffect(() => {
-    // Update the swiperRef whenever the Swiper component updates
     if (swiperRef.current && newsLoder) {
       swiperRef.current.swiper.update();
     }
   }, [newsLoder]);
-
-  const slideNext = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slideNext();
-    }
-  };
-
-  const slidePrev = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slidePrev();
-    }
-  };
 
   return (
     <>
@@ -74,24 +58,17 @@ export default function News() {
             <Link href="/news">News Center</Link>
           </h2>
 
-          <div className={styles.btn_parent}>
-            <div className="swiper-button-prev" onClick={slidePrev}></div>
-            {/* Custom next button */}
-            <div className="swiper-button-next" onClick={slideNext}></div>
-          </div>
+          {/* Remove navigation buttons */}
         </div>
         {newsLoder ? (
-          // <div className={styles.carousel}></div>
           <Swiper
             className={styles.carousel}
-            ref={swiperRef} // Assign the swiperRef to the Swiper component
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            ref={swiperRef}
+            modules={[Pagination, A11y]}
             slidesPerView={2}
             spaceBetween={24}
+            pagination={{ clickable: true }}
             breakpoints={{
-              // 1920: {
-              //   slidesPerView: 5,
-              // },
               1440: {
                 slidesPerView: 2,
               },
@@ -129,14 +106,14 @@ export default function News() {
                     />
                   </div>
                   <div className={styles.content}>
-                      <h4>{item?.title}</h4>
-                      <Link
-                        className="color_yellow"
-                        href={`/newsdetails?slugnews=${item.slug}`}
-                      >
-                        View Details
-                      </Link>
-                    </div>
+                    <h4>{item?.title}</h4>
+                    <Link
+                      className="color_yellow"
+                      href={`/newsdetails?slugnews=${item.slug}`}
+                    >
+                      View Details
+                    </Link>
+                  </div>
                 </SwiperSlide>
               ))}
           </Swiper>
