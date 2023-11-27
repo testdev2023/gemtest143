@@ -91,7 +91,14 @@ export default function TalentsBnaer() {
                       alt="talents slide_image"
                     />
                     <br/>
-                    <h3 className="name_heading">{item?.country}</h3>
+                    <p className="small_heading">{item.country}</p>
+                            {item?.country ? (
+                              <img
+                                src={getFlagUrl(item.country)}
+                                alt={item.country}
+                                style={{ width: 30, marginRight: 3 }}
+                              />
+                            ) : null}
                    
                     <h3 className="name_heading">{item?.name}</h3>
                    
