@@ -39,6 +39,7 @@ const NavBottom = () => {
                 </a>
               </Link>
             </li>
+            <div className={styles.divider}></div>
             <li className={styles.li}>
               <Link href="/team" legacyBehavior>
                 <a
@@ -53,7 +54,7 @@ const NavBottom = () => {
                 </a>
               </Link>
             </li>
-
+            <div className={styles.divider}></div>
             <li className={styles.li}>
               <Link href="/benefits" legacyBehavior>
                 <a
@@ -70,6 +71,7 @@ const NavBottom = () => {
                 </a>
               </Link>
             </li>
+            <div className={styles.divider}></div>
             <li className={styles.li}>
               <Link href="/partners" legacyBehavior>
                 <a
