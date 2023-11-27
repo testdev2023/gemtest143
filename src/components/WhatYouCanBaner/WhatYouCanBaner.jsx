@@ -17,15 +17,17 @@ export default function WhatYouCanBaner() {
           {/* <div className={styles.what_you_can_baner_dashline}></div> */}
           <h2 className="yellow">WHAT YOU CAN DO ON GEM?</h2>
         </div>
-        <div className={styles.what_you_can_baner_sec2}>
+        <div>
           <Link href="#" className={styles.what_you_can_baner_card}>
-            <div className={styles.what_you_can_baner_card_link} href="#">
-              <div className={styles.card_link_icon_div}>
-                <Image src={icon1} loading="lazy" alt="card_icon"></Image>
-              </div>
+            <div>
+              <Image src={icon1} loading="lazy" alt="card_icon"></Image>
+              <h4>BOOK A TALENT</h4>
             </div>
-            <h4>BOOK A TALENT</h4>
           </Link>
+        </div>
+
+        <div className={styles.what_you_can_baner_sec2}>
+
 
           <Link href="#" className={styles.what_you_can_baner_card}>
             <div className={styles.what_you_can_baner_card_link} href="#">
