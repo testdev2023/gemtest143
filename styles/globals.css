@@ -264,7 +264,16 @@ input {
   gap: 10px;
   top: 93% !important;
 }
-
+.NewsLetter_news_letter_main__yO9v_ {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fcc100;
+  background-color: var(--themeGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
 .InnerBaner_content__nCnQ7 {
   width: 100% !important;
   left: 12%;
