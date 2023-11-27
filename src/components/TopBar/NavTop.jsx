@@ -235,58 +235,7 @@ const NavTop = ({ loder, setLoder }) => {
           justifyContent: "center",
         }}
       >
-        {/* <div className={styles.nav_top}>
-          <div className={styles.nav_top_left}>
-            <Link
-              href="https://www.facebook.com/iamgemglobal/?_rdc=1&_rdr"
-              target={"blank"}
-            >
-              <Image
-                className={styles.icon}
-                src={fblogo}
-                width={100}
-                height={100}
-                alt="fblogo"
-              />
-              
-            </Link>
-            <Link href="https://twitter.com/iamgemglobal" target={"blank"}>
-              <Image
-                className={styles.icon}
-                src={xlogo}
-                width={100}
-                height={100}
-                alt="fblogo"
-              />
-             
-            </Link>
-            <Link
-              href="https://www.instagram.com/iamgemglobal/"
-              target={"blank"}
-            >
-              <Image
-                className={styles.icon}
-                src={instalogo}
-                width={100}
-                height={100}
-                alt="fblogo"
-              />
-             
-            </Link>
-            <Link
-              href="https://www.youtube.com/channel/UCzo6KFlfAzTVXHbBinP9fAw"
-              target={"blank"}
-            >
-              <Image
-                className={styles.icon}
-                src={ytlogo}
-                width={100}
-                height={100}
-                alt="fblogo"
-              />
-              
-            </Link>
-          </div> */}
+        
 
           {user ? (
             <div className={styles.nav_top_right2}>
