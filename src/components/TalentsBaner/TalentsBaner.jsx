@@ -45,7 +45,7 @@ export default function TalentsBnaer() {
   };
 
   const slidePrev = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
+    if (swiperRef.current && swiperRef.current.swiper) { 
       swiperRef.current.swiper.slidePrev();
     }
   };
