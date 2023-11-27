@@ -70,14 +70,15 @@ export default function Footer() {
   return (
     <div className={styles.footer_main}>
       <ToastContainer />
-      <NewsLetter />
+      {/* <NewsLetter /> */} 
 
       <footer className={styles.footer}>
         <div className={styles.flex}>
           <section className={styles.footer_sec}>
             <Link href="/">
               <Image src={logo} loading="lazy" alt="Logo" />
-              <p>
+            </Link>
+            <p>
                 GEM is an innovative entertainment company of the
                 people, for the people and by the people just like
                 democracy, GEM will provide an opportunity for
@@ -85,8 +86,6 @@ export default function Footer() {
                 entity by the foundation up, which is OWNED BY THE
                 FANS
               </p>
-            </Link>
-
             <div className={styles.footer_social}>
               <div
                 onClick={() =>
