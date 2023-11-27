@@ -18,26 +18,29 @@ export default function WhatYouCanBaner() {
           <h2 className="yellow">WHAT YOU CAN DO ON GEM?</h2>
         </div>
         <div>
+          <div>
           <Link href="#" className={styles.what_you_can_baner_card}>
             <div>
               <Image src={icon1} loading="lazy" alt="card_icon"></Image>
               <h4>BOOK A TALENT</h4>
             </div>
           </Link>
+          </div>
+
+          <div>
+          <Link href="#" className={styles.what_you_can_baner_card}>
+            
+          <div>
+          <Image src={icon2} loading="lazy" alt="card_icon"></Image>
+          <h4>SELL YOUR SERVICES</h4>
+          </div>
+          </Link>
+          </div>
         </div>
 
         <div className={styles.what_you_can_baner_sec2}>
 
-
-          <Link href="#" className={styles.what_you_can_baner_card}>
-            <div className={styles.what_you_can_baner_card_link} href="#">
-              <div className={styles.card_link_icon_div}>
-                <Image src={icon2} loading="lazy" alt="card_icon"></Image>
-              </div>
-              <h4>SELL YOUR SERVICES</h4>
-            </div>
-          </Link>
-
+          
           <Link href="#" className={styles.what_you_can_baner_card}>
             <div className={styles.what_you_can_baner_card_link} href="#">
               <div className={styles.card_link_icon_div}>
