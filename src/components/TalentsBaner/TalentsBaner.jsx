@@ -7,12 +7,11 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { findFlagUrlByCountryName } from 'country-flag-icons/react/3x2';
-export default function TalentsBnaer() { 
+import { countryCodeToFlag } from 'country-flag-icons/react/3x2';
+
+export default function TalentsBnaer() {
   const [talents, setTalents] = useState([]);
   const [talentsLoader, setTalentsLoader] = useState(false);
-
-  // Create a ref to hold the Swiper instance
   const swiperRef = useRef(null);
 
   const GetTalent = async () => {
@@ -32,7 +31,6 @@ export default function TalentsBnaer() {
   }, []);
 
   useEffect(() => {
-    // Update the swiperRef whenever the Swiper component updates
     if (swiperRef.current && talentsLoader) {
       swiperRef.current.swiper.update();
     }
@@ -50,11 +48,6 @@ export default function TalentsBnaer() {
     }
   };
 
-  const getFlagUrl = (countryFullName) => {
-    const flagUrl = findFlagUrlByCountryName(countryFullName);
-
-    return flagUrl;
-  };
   return (
     <>
       <div className={styles.talents_baner_main}>
@@ -66,7 +59,7 @@ export default function TalentsBnaer() {
         {talentsLoader && (
           <div className={styles.carousel}>
             <Swiper
-              ref={swiperRef} // Assign the swiperRef to the Swiper component
+              ref={swiperRef}
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               slidesPerView={5}
               spaceBetween={24}
@@ -85,7 +78,6 @@ export default function TalentsBnaer() {
                 },
               }}
               pagination={{ clickable: true }}
-              // loop={true}
             >
               {talents?.slice(0, 15).map((item, index) => (
                 <SwiperSlide key={index}>
@@ -97,16 +89,14 @@ export default function TalentsBnaer() {
                     />
                     <br/>
                     <p className="small_heading">{item.country}</p>
-                            {item?.country ? (
-                              <img
-                                src={getFlagUrl(item.country)}
-                                alt={item.country}
-                                style={{ width: 30, marginRight: 3 }}
-                              />
-                            ) : null}
-                   
+                    {item?.country ? (
+                      <img
+                        src={countryCodeToFlag(item.country)}
+                        alt={item.country}
+                        style={{ width: 30, marginRight: 3 }}
+                      />
+                    ) : null}
                     <h3 className="name_heading">{item?.name}</h3>
-                   
                     {item?.gender === 'Male' && (
                       <h3 className="name_heading">Actor</h3>
                     )}
@@ -117,7 +107,6 @@ export default function TalentsBnaer() {
                 </SwiperSlide>
               ))}
             </Swiper>
-         
           </div>
         )}
       </div>
