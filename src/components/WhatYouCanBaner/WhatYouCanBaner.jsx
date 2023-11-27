@@ -20,7 +20,7 @@ export default function WhatYouCanBaner() {
         <div className="event-section-icons">
           <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
-              <div>
+              <div className="event-section-img-section">
                 <Image src={icon1} loading="lazy" alt="card_icon"></Image>
                 <h4>BOOK A TALENT</h4>
               </div>
