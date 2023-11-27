@@ -13,7 +13,7 @@
 }
 .event-section-icons {
     display: flex !important; 
-    text-align: center;
+    text-align: center !important;
     padding-left: 10px;
     padding-right: 10px;
     width: auto;
