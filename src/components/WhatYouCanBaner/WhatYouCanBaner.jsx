@@ -23,8 +23,8 @@ export default function WhatYouCanBaner() {
               <div className={styles.card_link_icon_div}>
                 <Image src={icon1} loading="lazy" alt="card_icon"></Image>
               </div>
-              <h4>BOOK A TALENT</h4>
             </div>
+            <h4>BOOK A TALENT</h4>
           </Link>
 
           <Link href="#" className={styles.what_you_can_baner_card}>
