@@ -18,39 +18,6 @@ export default function GemCommunity() {
           <h3>SIGN UP</h3>
         </Link>
       </div>
-      <div className={styles.gem_community_sec2}>
-        <h5>STAY IN TOUCH WITH US</h5>
-        <div className={styles.flex}>
-          <Link
-            className={styles.icon}
-            href="https://www.facebook.com/iamgemglobal/?_rdc=1&_rdr"
-            target="_blank"
-          >
-            <Image src={fblogo} alt="" />
-          </Link>
-          <Link
-            className={styles.icon}
-            href="https://twitter.com/iamgemglobal"
-            target="_blank"
-          >
-            <Image src={xlogo} alt="" />
-          </Link>
-          <Link
-            className={styles.icon}
-            href="https://www.instagram.com/iamgemglobal/"
-            target="_blank"
-          >
-            <Image src={instalogo} alt="" />
-          </Link>
-          <Link
-            className={styles.icon}
-            href="https://www.youtube.com/channel/UCzo6KFlfAzTVXHbBinP9fAw"
-            target="_blank"
-          >
-            <Image src={ytlogo} alt="" />
-          </Link>
-        </div>
-      </div>
 
       {/* <div className={styles.gem_community_sec3}></div> */}
     </div>
