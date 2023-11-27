@@ -318,7 +318,8 @@ input {
 .WhatYouCanBaner_what_you_can_baner_card__2S8ue {
   width: 15% !important;
   overflow: hidden;
-  box-shadow: 0 0 10px 3px #f1b001;
+  /* box-shadow: 0 0 10px 3px #f1b001; */
+  box-shadow: none !important;
 }
 /* Banner Bullets */
 
