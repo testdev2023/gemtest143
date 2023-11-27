@@ -533,7 +533,6 @@ const NavTop = ({ loder, setLoder }) => {
             </div>
           )}
         </div>
-      </div>
     </>
   );
 };
