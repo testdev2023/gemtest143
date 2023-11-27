@@ -21,7 +21,7 @@ export default function WhatYouCanBaner() {
           <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
-                <Image src={icon1} loading="lazy" alt="card_icon"></Image>
+                <Image className="icon-images" src={icon1} loading="lazy" alt="card_icon"></Image>
                 <h4>BOOK A TALENT</h4>
               </div>
             </Link>
@@ -30,7 +30,7 @@ export default function WhatYouCanBaner() {
           <div >
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
-                <Image src={icon2} loading="lazy" alt="card_icon"></Image>
+                <Image className="icon-images" src={icon2} loading="lazy" alt="card_icon"></Image>
                 <h4>SELL YOUR SERVICES</h4>
               </div>
             </Link>
@@ -38,7 +38,7 @@ export default function WhatYouCanBaner() {
           <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
-                <Image src={icon3} loading="lazy" alt="card_icon"></Image>
+                <Image className="icon-images" src={icon3} loading="lazy" alt="card_icon"></Image>
 
                 <h4>CREATIVE COLLABORATIONS</h4>
               </div>
@@ -47,7 +47,7 @@ export default function WhatYouCanBaner() {
           <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
-                <Image src={icon4} loading="lazy" alt="card_icon"></Image>
+                <Image className="icon-images" src={icon4} loading="lazy" alt="card_icon"></Image>
 
                 <h4>PITCH YOUR FILM PROJECTS</h4>
               </div>
@@ -56,7 +56,7 @@ export default function WhatYouCanBaner() {
           <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
-                <Image src={icon5} loading="lazy" alt="card_icon"></Image>
+                <Image className="icon-images" src={icon5} loading="lazy" alt="card_icon"></Image>
 
                 <h4>SIGN TALENT & CREATORS</h4>
               </div>
@@ -65,7 +65,7 @@ export default function WhatYouCanBaner() {
           <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
-                <Image src={icon6} loading="lazy" alt="card_icon"></Image>
+                <Image className="icon-images" src={icon6} loading="lazy" alt="card_icon"></Image>
 
                 <h4>SUPPORT NEW TALENT</h4>
               </div>
