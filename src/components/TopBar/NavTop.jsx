@@ -236,7 +236,66 @@ const NavTop = ({ loder, setLoder }) => {
         }}
       >
         <div className={styles.nav_top}>
-          
+          <div className={styles.nav_top_left}>
+            <Link
+              href="https://www.facebook.com/iamgemglobal/?_rdc=1&_rdr"
+              target={"blank"}
+            >
+              <Image
+                className={styles.icon}
+                src={fblogo}
+                width={100}
+                height={100}
+                alt="fblogo"
+              />
+              {/* <FacebookIcon className={styles.icon} /> */}
+            </Link>
+            <Link href="https://twitter.com/iamgemglobal" target={"blank"}>
+              <Image
+                className={styles.icon}
+                src={xlogo}
+                width={100}
+                height={100}
+                alt="fblogo"
+              />
+              {/* <TwitterIcon className={styles.icon} /> */}
+            </Link>
+            <Link
+              href="https://www.instagram.com/iamgemglobal/"
+              target={"blank"}
+            >
+              <Image
+                className={styles.icon}
+                src={instalogo}
+                width={100}
+                height={100}
+                alt="fblogo"
+              />
+              {/* <InstagramIcon className={styles.icon} /> */}
+            </Link>
+            {/* <Link
+              href="https://www.linkedin.com/in/global-entertainment-movement-530198213/"
+              target={"blank"}
+            >
+              <LinkedInIcon className={styles.icon} />
+            </Link> */}
+            <Link
+              href="https://www.youtube.com/channel/UCzo6KFlfAzTVXHbBinP9fAw"
+              target={"blank"}
+            >
+              <Image
+                className={styles.icon}
+                src={ytlogo}
+                width={100}
+                height={100}
+                alt="fblogo"
+              />
+              {/* <YouTubeIcon className={styles.icon} /> */}
+            </Link>
+            {/* <Link href="/contactus">
+              <PhoneInTalkIcon className={styles.icon} />
+            </Link> */}
+          </div>
 
           {user ? (
             <div className={styles.nav_top_right2}>
