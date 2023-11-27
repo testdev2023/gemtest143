@@ -27,44 +27,44 @@ export default function WhatYouCanBaner() {
             </Link>
           </div>
 
-          <div className="event-section-icons">
+          <div >
             <Link href="#" className={styles.what_you_can_baner_card}>
-              <div>
+              <div className="event-section-img-section">
                 <Image src={icon2} loading="lazy" alt="card_icon"></Image>
                 <h4>SELL YOUR SERVICES</h4>
               </div>
             </Link>
           </div>
-          <div className="event-section-icons">
+          <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
-              <div>
+              <div className="event-section-img-section">
                 <Image src={icon3} loading="lazy" alt="card_icon"></Image>
 
                 <h4>CREATIVE COLLABORATIONS</h4>
               </div>
             </Link>
           </div>
-          <div className="event-section-icons">
+          <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
-              <div>
+              <div className="event-section-img-section">
                 <Image src={icon4} loading="lazy" alt="card_icon"></Image>
 
                 <h4>PITCH YOUR FILM PROJECTS</h4>
               </div>
             </Link>
           </div>
-          <div className="event-section-icons">
+          <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
-              <div>
+              <div className="event-section-img-section">
                 <Image src={icon5} loading="lazy" alt="card_icon"></Image>
 
                 <h4>SIGN TALENT & CREATORS</h4>
               </div>
             </Link>
           </div>
-          <div className="event-section-icons">
+          <div>
             <Link href="#" className={styles.what_you_can_baner_card}>
-              <div>
+              <div className="event-section-img-section">
                 <Image src={icon6} loading="lazy" alt="card_icon"></Image>
 
                 <h4>SUPPORT NEW TALENT</h4>
