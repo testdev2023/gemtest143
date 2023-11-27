@@ -27,7 +27,7 @@ export default function WhatYouCanBaner() {
             </Link>
           </div>
 
-          <div>
+          <div className="event-section-icons">
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div>
                 <Image src={icon2} loading="lazy" alt="card_icon"></Image>
@@ -35,7 +35,7 @@ export default function WhatYouCanBaner() {
               </div>
             </Link>
           </div>
-          <div>
+          <div className="event-section-icons">
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div>
                 <Image src={icon3} loading="lazy" alt="card_icon"></Image>
@@ -44,7 +44,7 @@ export default function WhatYouCanBaner() {
               </div>
             </Link>
           </div>
-          <div>
+          <div className="event-section-icons">
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div>
                 <Image src={icon4} loading="lazy" alt="card_icon"></Image>
@@ -53,7 +53,7 @@ export default function WhatYouCanBaner() {
               </div>
             </Link>
           </div>
-          <div>
+          <div className="event-section-icons">
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div>
                 <Image src={icon5} loading="lazy" alt="card_icon"></Image>
@@ -62,7 +62,7 @@ export default function WhatYouCanBaner() {
               </div>
             </Link>
           </div>
-          <div>
+          <div className="event-section-icons">
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div>
                 <Image src={icon6} loading="lazy" alt="card_icon"></Image>
