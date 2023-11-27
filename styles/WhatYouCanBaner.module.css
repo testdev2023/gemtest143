@@ -12,7 +12,7 @@
   margin-bottom: 50px;
 }
 .event-section-icons {
-    display: flex; 
+    display: flex !important; 
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
