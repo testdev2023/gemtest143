@@ -321,6 +321,15 @@ input {
   /* box-shadow: 0 0 10px 3px #f1b001; */
   box-shadow: none !important;
 }
+
+.event-section-icons {
+  display: flex !important; 
+  text-align: center !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  justify-content: center;
+}
 /* Banner Bullets */
 
 .swiper-pagination-bullet {
