@@ -235,7 +235,7 @@ const NavTop = ({ loder, setLoder }) => {
           justifyContent: "center",
         }}
       >
-        <div className={styles.nav_top}>
+        {/* <div className={styles.nav_top}>
           <div className={styles.nav_top_left}>
             <Link
               href="https://www.facebook.com/iamgemglobal/?_rdc=1&_rdr"
@@ -248,7 +248,7 @@ const NavTop = ({ loder, setLoder }) => {
                 height={100}
                 alt="fblogo"
               />
-              {/* <FacebookIcon className={styles.icon} /> */}
+              
             </Link>
             <Link href="https://twitter.com/iamgemglobal" target={"blank"}>
               <Image
@@ -258,7 +258,7 @@ const NavTop = ({ loder, setLoder }) => {
                 height={100}
                 alt="fblogo"
               />
-              {/* <TwitterIcon className={styles.icon} /> */}
+             
             </Link>
             <Link
               href="https://www.instagram.com/iamgemglobal/"
@@ -271,14 +271,8 @@ const NavTop = ({ loder, setLoder }) => {
                 height={100}
                 alt="fblogo"
               />
-              {/* <InstagramIcon className={styles.icon} /> */}
+             
             </Link>
-            {/* <Link
-              href="https://www.linkedin.com/in/global-entertainment-movement-530198213/"
-              target={"blank"}
-            >
-              <LinkedInIcon className={styles.icon} />
-            </Link> */}
             <Link
               href="https://www.youtube.com/channel/UCzo6KFlfAzTVXHbBinP9fAw"
               target={"blank"}
@@ -290,12 +284,9 @@ const NavTop = ({ loder, setLoder }) => {
                 height={100}
                 alt="fblogo"
               />
-              {/* <YouTubeIcon className={styles.icon} /> */}
+              
             </Link>
-            {/* <Link href="/contactus">
-              <PhoneInTalkIcon className={styles.icon} />
-            </Link> */}
-          </div>
+          </div> */}
 
           {user ? (
             <div className={styles.nav_top_right2}>
