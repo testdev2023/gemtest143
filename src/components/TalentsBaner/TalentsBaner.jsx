@@ -7,7 +7,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import { countryCodeToFlag } from 'country-flag-icons/react/3x2';
 export default function TalentsBnaer() { 
   const [talents, setTalents] = useState([]);
   const [talentsLoader, setTalentsLoader] = useState(false);
@@ -94,7 +94,7 @@ export default function TalentsBnaer() {
                     <p className="small_heading">{item.country}</p>
                             {item?.country ? (
                               <img
-                                src={getFlagUrl(item.country)}
+                                src={countryCodeToFlag(item.country)}
                                 alt={item.country}
                                 style={{ width: 30, marginRight: 3 }}
                               />
