@@ -22,7 +22,7 @@ export default function WhatYouCanBaner() {
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
                 <Image className="icon-images" src={icon1} loading="lazy" alt="card_icon"></Image>
-                <h4>BOOK A TALENT</h4>
+                <h4 className="event-section-heading">BOOK A TALENT</h4>
               </div>
             </Link>
           </div>
@@ -31,7 +31,7 @@ export default function WhatYouCanBaner() {
             <Link href="#" className={styles.what_you_can_baner_card}>
               <div className="event-section-img-section">
                 <Image className="icon-images" src={icon2} loading="lazy" alt="card_icon"></Image>
-                <h4>SELL YOUR SERVICES</h4>
+                <h4 className="event-section-heading">SELL YOUR SERVICES</h4>
               </div>
             </Link>
           </div>
@@ -40,7 +40,7 @@ export default function WhatYouCanBaner() {
               <div className="event-section-img-section">
                 <Image className="icon-images" src={icon3} loading="lazy" alt="card_icon"></Image>
 
-                <h4>CREATIVE COLLABORATIONS</h4>
+                <h4 className="event-section-heading">CREATIVE COLLABORATIONS</h4>
               </div>
             </Link>
           </div>
@@ -49,7 +49,7 @@ export default function WhatYouCanBaner() {
               <div className="event-section-img-section">
                 <Image className="icon-images" src={icon4} loading="lazy" alt="card_icon"></Image>
 
-                <h4>PITCH YOUR FILM PROJECTS</h4>
+                <h4 className="event-section-heading">PITCH YOUR FILM PROJECTS</h4>
               </div>
             </Link>
           </div>
@@ -58,7 +58,7 @@ export default function WhatYouCanBaner() {
               <div className="event-section-img-section">
                 <Image className="icon-images" src={icon5} loading="lazy" alt="card_icon"></Image>
 
-                <h4>SIGN TALENT & CREATORS</h4>
+                <h4 className="event-section-heading">SIGN TALENT & CREATORS</h4>
               </div>
             </Link>
           </div>
@@ -67,7 +67,7 @@ export default function WhatYouCanBaner() {
               <div className="event-section-img-section">
                 <Image className="icon-images" src={icon6} loading="lazy" alt="card_icon"></Image>
 
-                <h4>SUPPORT NEW TALENT</h4>
+                <h4 className="event-section-heading">SUPPORT NEW TALENT</h4>
               </div>
             </Link>
           </div>
