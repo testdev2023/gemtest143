@@ -87,26 +87,77 @@ export default function Footer() {
           {/* Second Row */}
           <section className={styles.footer_sec}>
             <ul>
-              <li>
-                Home
-              </li>
+              <li> Competitions </li>
+              <li> Mission SHE </li>
+              <li> Store </li>
+              <li> Invest </li>
+              <li> Login </li>
+              <li> Signup </li>
             </ul>
           </section>
           {/* Third Row */}
           <section className={styles.footer_sec}>
           <ul>
-              <li>
-                About Us
-              </li>
+             <li> Overview </li>
+             <li> Team </li>
+             <li> Benefits </li>
+             <li> Partner </li>
+             <li> News </li>
+             <li> Events </li>
+             <li> Talent </li>
+             <li> Projects </li>
             </ul>
           </section>
           {/* Fourth Row */}
           <section className={styles.footer_sec}>
-          <ul>
-              <li>
-                Social
-              </li>
-            </ul>
+            <div className={styles.footer_social}>
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/iamgemglobal/?_rdc=1&_rdr"
+                  )
+                }
+              >
+                <Image
+                  src={fblogo}
+                  alt="xIcon"
+                  style={{ height: "20px", width: "20px" }}
+                />
+              </div>
+              <div
+                onClick={() => window.open("https://twitter.com/iamgemglobal")}
+              >
+                <Image
+                  src={xlogo}
+                  alt="xIcon"
+                  style={{ height: "20px", width: "20px" }}
+                />
+              </div>
+              <div
+                onClick={() =>
+                  window.open("https://www.instagram.com/iamgemglobal/")
+                }
+              >
+                <Image
+                  src={instalogo}
+                  alt="xIcon"
+                  style={{ height: "20px", width: "20px" }}
+                />
+              </div>
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.youtube.com/channel/UCzo6KFlfAzTVXHbBinP9fAw"
+                  )
+                }
+              >
+                <Image
+                  src={ytlogo}
+                  alt="xIcon"
+                  style={{ height: "20px", width: "20px" }}
+                />
+              </div>
+            </div>
           </section>
         </div>
       </footer>
