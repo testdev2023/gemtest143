@@ -64,14 +64,14 @@
   width: 100%;
 }
 
-/* .what_you_can_baner_card_link h4 {
+.what_you_can_baner_card_link h4 {
   font-weight: 700;
   font-size: 22px;
   line-height: 30px;
   width: 70%;
   text-align: center;
   color: #fff;
-} */
+}
 
 @media screen and (max-width: 1440px) {
   .what_you_can_baner_container {
