@@ -353,6 +353,16 @@ input {
   height: auto !important;
   overflow: hidden;
 }
+.FindWorkBaner_card_child__Fysdc {
+  width: 100%;
+  height: auto !important;
+  background-color: #000;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
 .event-section-heading{
   font-size: 1.3em;
   line-height: 2rem;
