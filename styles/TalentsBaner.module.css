@@ -1,6 +1,7 @@
 .talents_baner_main {
+  background-image: url(../src/asset/talent-bg.jpg);
+  background-size: cover;
   width: 100vw;
-  /* margin: 50px 0 0 0; */
   display: flex;
   flex-direction: column;
   align-items: center;
