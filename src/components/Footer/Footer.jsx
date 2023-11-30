@@ -77,7 +77,9 @@ export default function Footer() {
           <section className={styles.footer_sec}>
             <Link href="/">
               <Image src={logo} loading="lazy" alt="Logo" />
-              <p>
+             
+            </Link>
+            <p>
                 GEM is an innovative entertainment company of the
                 people, for the people and by the people just like
                 democracy, GEM will provide an opportunity for
@@ -85,8 +87,6 @@ export default function Footer() {
                 entity by the foundation up, which is OWNED BY THE
                 FANS
               </p>
-            </Link>
-           
             <div className={styles.footer_social}>
               <div
                 onClick={() =>
