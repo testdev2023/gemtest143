@@ -7,6 +7,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { findFlagUrlByCountryName } from "country-flags-svg";
+
 
 export default function TalentsBnaer() { 
   const [talents, setTalents] = useState([]);
@@ -27,6 +29,11 @@ export default function TalentsBnaer() {
     }
   };
 
+  const getFlagUrl = (countryFullName) => {
+    const flagUrl = findFlagUrlByCountryName(countryFullName);
+
+    return flagUrl;
+  };
   useEffect(() => {
     GetTalent();
   }, []);
@@ -38,17 +45,6 @@ export default function TalentsBnaer() {
     }
   }, [talentsLoader]);
 
-  const slideNext = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slideNext();
-    }
-  };
-
-  const slidePrev = () => {
-    if (swiperRef.current && swiperRef.current.swiper) { 
-      swiperRef.current.swiper.slidePrev();
-    }
-  };
 
   return (
     <>
@@ -91,6 +87,18 @@ export default function TalentsBnaer() {
                       alt="talents slide_image"
                     />
                     <br/>
+                    <div className={styles.country_div}>
+                            <p className="small_heading">{item.city}.</p>
+
+                            <p className="small_heading">{item.country}</p>
+                            {item?.country ? (
+                              <img
+                                src={getFlagUrl(item.country)}
+                                alt={item.country}
+                                style={{ width: 30, marginRight: 3 }}
+                              />
+                            ) : null}
+                          </div>
                     <h3 className="name_heading">{item?.country}</h3>
                    
                     <h3 className="name_heading">{item?.name}</h3>
