@@ -44,15 +44,15 @@ export default function AboutBanner() {
               <div>
                 <img src="../../ " alt="" />
               </div>
-              <div className={styles.about_baner_sec2}>
-                <div className={styles.about_baner_sec2_sub1}>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: banner?.about_section?.description,
-                    }}
-                  ></span>
-                </div>
-              </div>
+              <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center;">
+<div style="flex: 1; padding: 10px;"><img style="max-width: 100%; height: auto;" src="your-image-source.jpg" alt="Your Image" /></div>
+
+<div style="flex: 1; padding: 10px;">
+<h1 style="font-family: 'Josefin Sans', sans-serif; color: #f1c40f;"><strong>UNITING GEMS</strong></h1>
+<h1 style="font-family: 'Josefin Sans', sans-serif; color: #f1c40f;">10,000,000</h1>
+<p style="font-family: 'Josefin Sans', sans-serif; font-size: 14pt;">OUR GOAL IS TO UNITE 10 MILLION GEMS LIKE YOU GLOBALLY AS STAKEHOLDERS OF THE COMPANY BY 2030.</p>
+<span style="color: #f1c40f; font-family: 'Josefin Sans', sans-serif; font-size: 18pt;">#IAMGEMGLOBAL</span></div>
+</div>
             </div>
           )}
           <ToastContainer className="tost" />
