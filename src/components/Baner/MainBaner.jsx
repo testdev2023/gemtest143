@@ -38,8 +38,8 @@ export default function MainBaner({ dataBanner }) {
     <div className={styles.baner_container}>
       <Carousel
         // infinite={true}
-        // autoPlay={true}
-        // autoPlaySpeed={3000}
+        autoPlay={true}
+        autoPlaySpeed={3000}
         className={styles?.carousel1}
         responsive={responsive}
         showDots={true}
