@@ -250,6 +250,10 @@ input {
 }
 .color_black{
   color: black !important;
+  text-transform: uppercase;
+}
+.color_yellow, .yellow {
+  text-transform: uppercase !important;
 }
 .name_heading {
   color: #000 !important;

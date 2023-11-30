@@ -61,6 +61,8 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 10px;
+  color : #fcc100 !important;
+  text-transform: uppercase;
 }
 
 .discription {
