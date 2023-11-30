@@ -72,17 +72,16 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
   background-color: #ff3c3c;
   padding: 10px 40px;
 }
 
-.copy_right div {
+/* .copy_right div {
   width: 100%;
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 @media screen and (max-width: 1440px) {
   .footer,
