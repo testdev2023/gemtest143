@@ -146,10 +146,6 @@ export default function Footer() {
       <div className={styles.copy_right}>
         <div>
           <p>Copyright © {currentYear} Global Entertainment Movement</p>
-          <p>
-            <Link href="termsandconditions"> Terms and Conditions </Link>|
-            <Link href="privacypolicy"> Privacy Policy </Link>
-          </p>
         </div>
       </div>
     </div>
