@@ -54,7 +54,7 @@ export default function TalentsBnaer() {
     <>
       <div className={styles.talents_baner_main}>
         <div className={styles.talents_baner_sec1}>
-          <h2 className="color_yellow">
+          <h2 className="color_black">
             <Link href="/talent">Talent</Link>
           </h2>
         </div>
