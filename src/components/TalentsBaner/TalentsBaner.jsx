@@ -73,7 +73,7 @@ export default function TalentsBnaer() {
                   slidesPerView: 4,
                 },
                 464: {
-                  slidesPerView: 3,
+                  slidesPerView: 1,
                 },
                 0: {
                   slidesPerView: 2,

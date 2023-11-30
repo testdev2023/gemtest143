@@ -15,7 +15,7 @@ export default function WhatYouCanBaner() {
       <div className={styles.what_you_can_baner_container}>
         <div className={styles.what_you_can_baner_sec1}>
           {/* <div className={styles.what_you_can_baner_dashline}></div> */}
-          <h2 className="yellow">WHAT YOU CAN DO ON GEM?</h2>
+          <h2 className="yellow">WHAT CAN YOU DO ON GEM?</h2>
         </div>
         <div className="event-section-icons">
           <div>
