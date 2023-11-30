@@ -41,9 +41,6 @@ export default function AboutBanner() {
               <div className={styles.about_baner_sec1}>
                 <h2 className="yellow">{banner?.about_section.title}</h2>
               </div>
-              <div>
-                <img src="../../ " alt="" />
-              </div>
               <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: center;">
 <div style="flex: 1; padding: 10px;"><img style="max-width: 100%; height: auto;" src="your-image-source.jpg" alt="Your Image" /></div>
 
