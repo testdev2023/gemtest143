@@ -136,7 +136,7 @@ export default function News() {
                         className="color_yellow"
                         href={`/newsdetails?slugnews=${item.slug}`}
                       >
-                        View Details
+                       Read More
                       </Link>
                     </div>
                 </SwiperSlide>
