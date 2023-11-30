@@ -70,76 +70,43 @@ export default function Footer() {
   return (
     <div className={styles.footer_main}>
       <ToastContainer />
-      {/* <NewsLetter /> */} 
-
       <footer className={styles.footer}>
         <div className={styles.flex}>
+          {/* First Row */}
           <section className={styles.footer_sec}>
             <Link href="/">
               <Image src={logo} loading="lazy" alt="Logo" />
-             
             </Link>
             <p>
-                GEM is an innovative entertainment company of the
-                people, for the people and by the people just like
-                democracy, GEM will provide an opportunity for
-                everyone to connect and grow, and it is first of its kind
-                entity by the foundation up, which is OWNED BY THE
-                FANS
-              </p>
-            <div className={styles.footer_social}>
-              <div
-                onClick={() =>
-                  window.open(
-                    "https://www.facebook.com/iamgemglobal/?_rdc=1&_rdr"
-                  )
-                }
-              >
-                <Image
-                  src={fblogo}
-                  alt="xIcon"
-                  style={{ height: "20px", width: "20px" }}
-                />
-                {/* <FacebookIcon /> */}
-              </div>
-              <div
-                onClick={() => window.open("https://twitter.com/iamgemglobal")}
-              >
-                <Image
-                  src={xlogo}
-                  alt="xIcon"
-                  style={{ height: "20px", width: "20px" }}
-                />
-                {/* <TwitterIcon /> */}
-              </div>
-              <div
-                onClick={() =>
-                  window.open("https://www.instagram.com/iamgemglobal/")
-                }
-              >
-                <Image
-                  src={instalogo}
-                  alt="xIcon"
-                  style={{ height: "20px", width: "20px" }}
-                />
-                {/* <InstagramIcon /> */}
-              </div>
-
-              <div
-                onClick={() =>
-                  window.open(
-                    "https://www.youtube.com/channel/UCzo6KFlfAzTVXHbBinP9fAw"
-                  )
-                }
-              >
-                <Image
-                  src={ytlogo}
-                  alt="xIcon"
-                  style={{ height: "20px", width: "20px" }}
-                />
-                {/* <YouTubeIcon /> */}
-              </div>
-            </div>
+              GEM is an innovative entertainment company of the people, for the
+              people and by the people just like democracy, GEM will provide an
+              opportunity for everyone to connect and grow, and it is the first
+              of its kind entity by the foundation up, which is OWNED BY THE FANS
+            </p>
+          </section>
+          {/* Second Row */}
+          <section className={styles.footer_sec}>
+            <ul>
+              <li>
+                Home
+              </li>
+            </ul>
+          </section>
+          {/* Third Row */}
+          <section className={styles.footer_sec}>
+          <ul>
+              <li>
+                About Us
+              </li>
+            </ul>
+          </section>
+          {/* Fourth Row */}
+          <section className={styles.footer_sec}>
+          <ul>
+              <li>
+                Social
+              </li>
+            </ul>
           </section>
         </div>
       </footer>
