@@ -107,9 +107,9 @@ export default function MasterClass({ formattedDate }) {
                             <h4>{item?.title}</h4>
                           </div>
                           <div className={styles.discription}>
-                            <span
+                          <span
                               dangerouslySetInnerHTML={{
-                                __html: item?.short_description,
+                                __html: truncateDescription(item?.short_description, 120),
                               }}
                             />
                           </div>
