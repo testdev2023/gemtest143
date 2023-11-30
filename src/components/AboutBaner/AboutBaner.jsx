@@ -42,6 +42,10 @@ export default function AboutBanner() {
                 <h2 className="yellow">{banner?.about_section.title}</h2>
               </div>
 
+
+              <div>
+                <img src="" alt="" />
+              </div>
               <div className={styles.about_baner_sec2}>
                 <div className={styles.about_baner_sec2_sub1}>
                   <span
