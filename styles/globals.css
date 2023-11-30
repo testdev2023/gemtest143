@@ -534,11 +534,14 @@ option {
 
 @media only screen and (max-width: 600px) {
   .AboutBaner_about_baner_sec2_sub1__IgAj1 {
-     width: 100%;
+     width: 100% !important;
      display: flex;
      flex-direction: column;
      padding: 0 20px;
  }
+ .InnerBaner_img__di0dy {
+  height: 50vh !important;
+  margin-bottom: 65px;
  }
 @media screen and (max-width: 1024px) {
   h1 {
