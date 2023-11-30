@@ -230,7 +230,7 @@ input {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 40px !important;
+
 }
 .TalentsBaner_carousel_card__WU_DC h3 {
   overflow: hidden;
@@ -242,6 +242,7 @@ input {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  background-color: transparent !important;
   
 }
 .color_black{

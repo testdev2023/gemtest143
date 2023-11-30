@@ -7,6 +7,7 @@
   align-items: center;
   margin-bottom: 50px;
   gap: 24px;
+  padding: 40px;
 }
 
 .talents_baner_sec1 {
@@ -49,7 +50,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000;
 }
 
 .btn_parent {
