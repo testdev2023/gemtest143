@@ -348,7 +348,11 @@ input {
   transform: translateZ(0);
   z-index: 10;
 }
-
+.FindWorkBaner_discription__IRC33 {
+  width: 100%;
+  height: auto !important;
+  overflow: hidden;
+}
 .event-section-heading{
   font-size: 1.3em;
   line-height: 2rem;
