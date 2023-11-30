@@ -540,8 +540,14 @@ option {
      padding: 0 20px;
  }
  .InnerBaner_img__di0dy {
-  height: 50vh !important;
+  height: 35vh !important;
   margin-bottom: 65px;
+ }
+ .event-section-icons {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 100%;
+  text-align: center;
  }
 }
 @media screen and (max-width: 1024px) {
@@ -586,6 +592,10 @@ option {
   font-size: 12px !important;
   border-radius: 5px !important;
 }
+.FindWorkBaner_card__HQu9z img {
+  height: auto !important;
+}
+
 
 /* .makeStyles-container-11 {
   color: #000;
