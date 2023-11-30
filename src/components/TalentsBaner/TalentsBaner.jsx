@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import { findFlagUrlByCountryName } from "country-flags-svg";
 
 
-export default function TalentsBnaer() { 
+export default function TalentsBnaer() {
   const [talents, setTalents] = useState([]);
   const [talentsLoader, setTalentsLoader] = useState(false);
 
@@ -76,7 +76,7 @@ export default function TalentsBnaer() {
                 },
               }}
               pagination={{ clickable: true }}
-              // loop={true}
+            // loop={true}
             >
               {talents?.slice(0, 15).map((item, index) => (
                 <SwiperSlide key={index}>
@@ -86,23 +86,19 @@ export default function TalentsBnaer() {
                       src={item?.photoURL}
                       alt="talents slide_image"
                     />
-                    <br/>
-                    <div className={styles.country_div}>
-                            <p className="small_heading">{item.city}.</p>
+                    <br />
+                    <h3 className="name_heading">
+                      {item?.country ? (
+                        <img
+                          src={getFlagUrl(item.country)}
+                          alt={item.country}
+                          style={{ width: 30, marginRight: 3 }}
+                        />
+                      ) : null}
+                    </h3>
 
-                            <p className="small_heading">{item.country}</p>
-                            {item?.country ? (
-                              <img
-                                src={getFlagUrl(item.country)}
-                                alt={item.country}
-                                style={{ width: 30, marginRight: 3 }}
-                              />
-                            ) : null}
-                          </div>
-                    <h3 className="name_heading">{item?.country}</h3>
-                   
                     <h3 className="name_heading">{item?.name}</h3>
-                   
+
                     {item?.gender === 'Male' && (
                       <h3 className="name_heading">Actor</h3>
                     )}
@@ -113,7 +109,7 @@ export default function TalentsBnaer() {
                 </SwiperSlide>
               ))}
             </Swiper>
-         
+
           </div>
         )}
       </div>
