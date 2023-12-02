@@ -105,7 +105,7 @@ export default function EventsBaner() {
                   slidesPerView: 1,
                 },
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 1,
                 },
                 0: {
                   slidesPerView: 1,
