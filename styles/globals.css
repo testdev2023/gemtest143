@@ -442,6 +442,12 @@ section.Footer_footer_sec__wN1cz h3 {
   margin-top: 20px !important;
   font-size: 24px !important;
 }
+.social-icons {
+  display: flex !important;
+  justify-content: start !important;
+  gap: 20px !important;
+  font-size: 26px !important;
+}
 .big_light_heading {
   font-weight: lighter;
   line-height: 1.3;
