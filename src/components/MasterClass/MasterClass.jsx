@@ -74,6 +74,7 @@ export default function MasterClass({ formattedDate }) {
                   modules={[Navigation, Pagination, Scrollbar, A11y]}
                   slidesPerView={3}
                   spaceBetween={24}
+                  pagination={{ clickable: true }}
                   breakpoints={{
                     // 1920: {
                     //   slidesPerView: 5,
