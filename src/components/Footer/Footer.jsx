@@ -86,6 +86,7 @@ export default function Footer() {
           </section>
           {/* Second Row */}
           <section className={styles.footer_sec}>
+            <h3>Quick Links</h3>
             <ul className="quick-links">
               <li> Competitions </li>
               <li> Mission SHE </li>
