@@ -45,7 +45,7 @@
   background: var(--themeGradient);
   box-shadow: 5px 5px 5px 0px #000000;
   cursor: pointer;
-  min-width: 300px;
+  /* min-width: 300px; */
   border-radius: 8px;
 }
 .gem_community_sec1 a:hover h3 {
