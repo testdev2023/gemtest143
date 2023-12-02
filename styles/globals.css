@@ -608,6 +608,13 @@ option {
   margin-top: 0%;
   text-align: center;
 }
+.Footer_footer_sec__wN1cz p {
+  font-style: normal;
+  color: #c2c2c2;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+}
 }
 @media screen and (max-width: 1024px) {
   h1 {
