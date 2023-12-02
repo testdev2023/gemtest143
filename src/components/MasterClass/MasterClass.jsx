@@ -60,12 +60,6 @@ export default function MasterClass({ formattedDate }) {
             <div className={styles.find_work_container}>
               <div className={styles.section1}>
                 <h2 className="yellow">Master Class</h2>
-
-                <div className={styles.btn_parent}>
-                  <div className="swiper-button-prev" onClick={slidePrev}></div>
-                  {/* Custom next button */}
-                  <div className="swiper-button-next" onClick={slideNext}></div>
-                </div>
               </div>
               <div className={styles.section2}>
                 <Swiper
