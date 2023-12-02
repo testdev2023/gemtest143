@@ -605,8 +605,8 @@ option {
   display: flex;
 }
 .Footer_footer_social___77oM {
-  margin-top: 0%;
-  text-align: center;
+  margin-top: 0% !important;
+  text-align: center !important;
 }
 .Footer_footer_sec__wN1cz p {
   font-style: normal;
