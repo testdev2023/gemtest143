@@ -88,28 +88,28 @@ export default function Footer() {
           <section className={styles.footer_sec}>
           <ul className="quick-links">
               <li>
-                <Link href="/">Overview</Link>
+                <Link href="/overview">Overview</Link>
               </li>
               <li>
-                <Link href="/">Team</Link>
+                <Link href="/team">Team</Link>
               </li>
               <li>
-                <Link href="/">Benefits</Link>
+                <Link href="/benefits">Benefits</Link>
               </li>
               <li>
-                <Link href="/">Partner</Link>
+                <Link href="/partners">Partner</Link>
               </li>
               <li>
-                <Link href="/">News</Link>
+                <Link href="/news">News</Link>
               </li>
               <li>
-                <Link href="/">Events</Link>
+                <Link href="/events">Events</Link>
               </li>
               <li>
-                <Link href="/">Talent</Link>
+                <Link href="/talent">Talent</Link>
               </li>
               <li>
-                <Link href="/">Projects</Link>
+                <Link href="/projects">Projects</Link>
               </li>
             </ul>
           </section>
@@ -120,19 +120,19 @@ export default function Footer() {
                 <Link href="/">Competitions</Link>
               </li>
               <li>
-                <Link href="/">Mission SHE</Link>
+                <Link href="/missionshe">Mission SHE</Link>
               </li>
               <li>
-                <Link href="/">Store</Link>
+                <Link href="/store">Store</Link>
               </li>
               <li>
-                <Link href="/">Invest</Link>
+                <Link href="/invest">Invest</Link>
               </li>
               <li>
-                <Link href="/">Login</Link>
+                <Link href="/login">Login</Link>
               </li>
               <li>
-                <Link href="/">Signup</Link>
+                <Link href="/signup">Signup</Link>
               </li>
             </ul>
           </section>
