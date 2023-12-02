@@ -148,13 +148,13 @@ export default function EventsBaner() {
                        {timeDate(cardData?.start_date)}
                       </p>
                           <h4 className={styles.card_title}>{cardData?.title}</h4>
-                        {/* <Link
+                        <Link
                           className="color_yellow"
                           href={`/eventsdetails?slug=${cardData.slug}`}
                           passHref
                         >
                           View Details
-                        </Link> */}
+                        </Link>
                       </div>
                       {/* </Link> */}
                     </div>
@@ -167,9 +167,9 @@ export default function EventsBaner() {
           ""
         )}
 
-        <Link href="events" className={styles.view_more_button}>
+        {/* <Link href="events" className={styles.view_more_button}>
           View more
-        </Link>
+        </Link> */}
       </div>
       <ToastContainer className="tost" />
     </>
