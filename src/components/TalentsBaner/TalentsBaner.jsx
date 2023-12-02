@@ -109,13 +109,7 @@ export default function TalentsBnaer() {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <Link
-                          className="color_yellow"
-                          href={`/eventsdetails?slug=${cardData.slug}`}
-                          passHref
-                        >
-                          View Details
-                        </Link>
+           
           </div>
         )}
       </div>
