@@ -623,11 +623,7 @@ ul.quick-links, ul.quick-links-two {
   flex-direction: row !important;
   padding: 0px 20px !important
 }
-.Footer_footer_sec__wN1cz img {
-  width: 100% !important;
-  padding: 20px !important;
-  height: auto !important;
-}
+
 }
 @media screen and (max-width: 1024px) {
   h1 {
