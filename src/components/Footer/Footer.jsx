@@ -86,7 +86,7 @@ export default function Footer() {
           </section>
           {/* Second Row */}
           <section className={styles.footer_sec}>
-            <ul>
+            <ul className="quick-links">
               <li> Competitions </li>
               <li> Mission SHE </li>
               <li> Store </li>
@@ -97,7 +97,7 @@ export default function Footer() {
           </section>
           {/* Third Row */}
           <section className={styles.footer_sec}>
-          <ul>
+          <ul className="quick-links-two">
              <li> Overview </li>
              <li> Team </li>
              <li> Benefits </li>
@@ -111,6 +111,7 @@ export default function Footer() {
           {/* Fourth Row */}
           <section className={styles.footer_sec}>
             <div className={styles.footer_social}>
+              <h2 className="social-icons-heading">Stay In Touch With Us</h2>
               <div
                 onClick={() =>
                   window.open(
