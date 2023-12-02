@@ -434,7 +434,7 @@ input {
   font-size: 14px;
 }
 ul.quick-links, ul.quick-links-two {
-  line-height: 2em!important;
+  /* line-height: 2em!important; */
   list-style: none!important;
   margin-top: 82px;
 }
