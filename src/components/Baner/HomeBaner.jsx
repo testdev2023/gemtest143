@@ -16,22 +16,30 @@ export default function HomeBanner({ dataBanner }) {
         <h2 className="yellow">Our Brand Partners</h2>
       </div>
       <Swiper
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper3"
+        navigation={true}
+        pagination={{ clickable: true }}
+        className={styles.swiper_container}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {dataBanner.map((banner, index) => (
+          <SwiperSlide key={index}>
+            <Link href={banner.url} target="_blank">
+              <div
+                className={styles.slide}
+                style={{
+                  backgroundImage: `url(${banner.image})`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              >
+                <h3>{banner.title}</h3>
+                <Link className="color_yellow" target="_blank" href={banner.url}>
+                  More Details
+                </Link>
+              </div>
+            </Link>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
