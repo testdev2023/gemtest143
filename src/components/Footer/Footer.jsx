@@ -86,26 +86,54 @@ export default function Footer() {
           </section>
           {/* Second Row */}
           <section className={styles.footer_sec}>
-            <ul className="quick-links">
-            <li> Overview </li>
-             <li> Team </li>
-             <li> Benefits </li>
-             <li> Partner </li>
-             <li> News </li>
-             <li> Events </li>
-             <li> Talent </li>
-             <li> Projects </li>
+          <ul className="quick-links">
+              <li>
+                <Link href="/">Overview</Link>
+              </li>
+              <li>
+                <Link href="/">Team</Link>
+              </li>
+              <li>
+                <Link href="/">Benefits</Link>
+              </li>
+              <li>
+                <Link href="/">Partner</Link>
+              </li>
+              <li>
+                <Link href="/">News</Link>
+              </li>
+              <li>
+                <Link href="/">Events</Link>
+              </li>
+              <li>
+                <Link href="/">Talent</Link>
+              </li>
+              <li>
+                <Link href="/">Projects</Link>
+              </li>
             </ul>
           </section>
           {/* Third Row */}
           <section className={styles.footer_sec}>
           <ul className="quick-links-two">
-             <li> Competitions </li>
-              <li> Mission SHE </li>
-              <li> Store </li>
-              <li> Invest </li>
-              <li> Login </li>
-              <li> Signup </li>
+              <li>
+                <Link href="/">Competitions</Link>
+              </li>
+              <li>
+                <Link href="/">Mission SHE</Link>
+              </li>
+              <li>
+                <Link href="/">Store</Link>
+              </li>
+              <li>
+                <Link href="/">Invest</Link>
+              </li>
+              <li>
+                <Link href="/">Login</Link>
+              </li>
+              <li>
+                <Link href="/">Signup</Link>
+              </li>
             </ul>
           </section>
           {/* Fourth Row */}
