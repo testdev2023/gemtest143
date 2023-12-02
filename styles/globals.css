@@ -574,8 +574,17 @@ option {
      flex-direction: column;
      padding: 0 20px;
  }
+ .Footer_footer_sec__wN1cz p {
+  font-style: normal;
+  color: #c2c2c2;
+  padding: 10px 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  /* padding: 10px; */
+  line-height: 2.5em;
+}
  .InnerBaner_img__di0dy {
-  height: 35vh !important;
+  height: 100% !important;
   margin-bottom: 65px;
  }
  .event-section-icons {
@@ -586,6 +595,14 @@ option {
  }
  .GemCommunity_gem_community_sec1__iJZXO h1 {
   padding: 0px !important;
+}
+.social-icons {
+  display: flex!important;
+  justify-content: center !important;
+  gap: 20px!important;
+  font-size: 26px!important;
+  text-align: center;
+  display: flex;
 }
 }
 @media screen and (max-width: 1024px) {

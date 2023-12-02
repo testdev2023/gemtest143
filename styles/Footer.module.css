@@ -79,6 +79,7 @@
   background-image: url(../src/asset/talent-bg.jpg);
   background-size: cover;
   padding: 10px 40px;
+  text-align: center;
 }
 
 .copy_right p {
