@@ -113,8 +113,8 @@ export default function Footer() {
           {/* Fourth Row */}
           <section className={styles.footer_sec}>
             <div className={styles.footer_social}>
-              <div className="social-icons">
               <h3>Stay In Touch With Us</h3>
+              <div className="social-icons">
               <div
                 onClick={() =>
                   window.open(
