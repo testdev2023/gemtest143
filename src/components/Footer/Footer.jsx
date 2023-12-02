@@ -87,18 +87,7 @@ export default function Footer() {
           {/* Second Row */}
           <section className={styles.footer_sec}>
             <ul className="quick-links">
-              <li> Competitions </li>
-              <li> Mission SHE </li>
-              <li> Store </li>
-              <li> Invest </li>
-              <li> Login </li>
-              <li> Signup </li>
-            </ul>
-          </section>
-          {/* Third Row */}
-          <section className={styles.footer_sec}>
-          <ul className="quick-links-two">
-             <li> Overview </li>
+            <li> Overview </li>
              <li> Team </li>
              <li> Benefits </li>
              <li> Partner </li>
@@ -106,6 +95,17 @@ export default function Footer() {
              <li> Events </li>
              <li> Talent </li>
              <li> Projects </li>
+            </ul>
+          </section>
+          {/* Third Row */}
+          <section className={styles.footer_sec}>
+          <ul className="quick-links-two">
+             <li> Competitions </li>
+              <li> Mission SHE </li>
+              <li> Store </li>
+              <li> Invest </li>
+              <li> Login </li>
+              <li> Signup </li>
             </ul>
           </section>
           {/* Fourth Row */}

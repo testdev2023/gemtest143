@@ -433,9 +433,10 @@ input {
   font-weight: 500;
   font-size: 14px;
 }
-ul.quick-links , ul.quick-links-two   {
-  line-height: 2em !important;
-  list-style: none !important;
+ul.quick-links, ul.quick-links-two {
+  line-height: 2em!important;
+  list-style: none!important;
+  margin-top: 82px;
 }
 section.Footer_footer_sec__wN1cz h3 {
   margin-bottom: 28px !important;
