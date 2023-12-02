@@ -84,9 +84,10 @@
 }
 
 .card_image {
-  width: 260px;
-  height: 405px;
-  object-fit: cover;
+  width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .name {

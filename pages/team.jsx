@@ -284,7 +284,7 @@ export default function Team() {
                           />
                         </div>
                         <div className={styles.card_content}>
-                          <span className="name_heading">
+                          <span className="name_heading_two">
                             {/* {item.first_name + " " + item.last_name} */}
                             {item.full_name}
                           </span>
