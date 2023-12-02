@@ -62,7 +62,7 @@
 
 .events_baner_card_link {
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@
 }
 
 .card_image {
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: cover;
 
@@ -89,16 +89,9 @@
 }
 
 .content {
-  position: absolute;
-  bottom: 0px;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.15) 50%,
-    rgba(62, 65, 65, 0) 100%
-  );
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
