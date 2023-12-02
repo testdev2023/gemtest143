@@ -621,7 +621,7 @@ ul.quick-links, ul.quick-links-two {
   gap: 20px !important;
   text-align: center !important;
   flex-direction: row !important;
-  padding: 50px !important; 
+  padding: 0px 20px !important
 }
 .Footer_footer_sec__wN1cz img {
   width: 100% !important;
