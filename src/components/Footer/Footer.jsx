@@ -114,6 +114,7 @@ export default function Footer() {
           <section className={styles.footer_sec}>
             <div className={styles.footer_social}>
               <h3>Stay In Touch With Us</h3>
+              <div className="social-icons">
               <div
                 onClick={() =>
                   window.open(
@@ -159,6 +160,7 @@ export default function Footer() {
                   alt="xIcon"
                   style={{ height: "20px", width: "20px" }}
                 />
+              </div>
               </div>
             </div>
           </section>
