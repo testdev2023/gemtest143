@@ -438,6 +438,10 @@ ul.quick-links, ul.quick-links-two {
   list-style: none!important;
   margin-top: 82px;
 }
+.Signup_g_parnt__wufsy {
+  background-image: url(../src/asset/signup-bg.jpg) !important;
+  background-size: cover;
+}
 .Footer_footer_social___77oM {
   margin-top: 70% !important;
 }
