@@ -154,7 +154,7 @@ export default function Footer() {
                   style={{ height: "20px", width: "20px" }}
                 />
               </div>
-              <div
+                <div
                 onClick={() =>
                   window.open("https://www.instagram.com/iamgemglobal/")
                 }

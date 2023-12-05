@@ -13,6 +13,13 @@ import "react-phone-number-input/style.css";
 import axios from "axios";
 import logo from "../../../src/asset/gemlogo.png";
 import Image from "next/image";
+import localStorage from "local-storage";
+// import LocalStorage from "react-localstorage";/
+// import { useLocalStorage } from "reactjs-localstorage";
+import { reactLocalStorage } from "reactjs-localstorage";
+
+import { useDispatch, useSelector } from "react-redux";
+import { Api } from "../../config/Config";
 // import { signUp } from "../../../src/redux/actions/userActions";
 import { signUp } from "../../redux/actions/authActions";
 // import { baseUrl } from "../../config/Config";
@@ -472,15 +479,15 @@ const SignupStep1 = ({}) => {
             </div>
 
             <div className={styles.signup_sub_container}>
-              <Link href="/" className={styles.link}>
-                {/* <Image
+              {/* <Link href="/" className={styles.link}>
+                <Image
                   style={{ height: "130px", width: "130px" }}
                   src={logo}
                   // loading="lazy"
                   priority={true}
                   alt="logo"
-                /> */}
-              </Link>
+                />
+              </Link> */}
             </div>
 
             <form onSubmit={handleNext} className={styles.signup_form}>

@@ -1,7 +1,7 @@
 .about_baner_main {
   width: 100%;
   max-width: 1440px;
-  /* background-image: url(../src/asset/bg-1.png) !important; */
+  background-image: url(../src/asset/bg-1.png) !important;
   background-size: cover;
   display: flex;
   flex-direction: column;
