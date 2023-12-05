@@ -76,8 +76,22 @@ export default function Login() {
   }, []);
 
   return (
-    <div>
-       <form onSubmit={handleSubmit} className={styles.login_form}>
+    <div className={styles.parent}>
+      <div className={styles.login_main}>
+        <Slider />
+
+        <div className={styles.login_container}>
+          <div className={styles.login_sub_container}>
+            {/* <Link className={styles.link} href="/">
+              <Image
+                style={{ height: "130px", width: "130px" }}
+                src={logo}
+                priority={true}
+                alt="logo"
+              />
+            </Link> */}
+
+            <form onSubmit={handleSubmit} className={styles.login_form}>
               <div className={styles.login_form_sec1}>
                 <h2 className="yellow">Login</h2>
                 <p>Welcome! Please enter your details.</p>
@@ -169,26 +183,9 @@ export default function Login() {
               </div>
               <ToastContainer className="tost" />
             </form>
+          </div>
+        </div>
+      </div>
     </div>
-    // <div className={styles.parent}>
-    //   <div className={styles.login_main}>
-    //     <Slider />
-
-    //     <div className={styles.login_container}>
-    //       <div className={styles.login_sub_container}>
-    //         {/* <Link className={styles.link} href="/">
-    //           <Image
-    //             style={{ height: "130px", width: "130px" }}
-    //             src={logo}
-    //             priority={true}
-    //             alt="logo"
-    //           />
-    //         </Link> */}
-
-           
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }

@@ -7,7 +7,7 @@ export default function Signup() {
   return (
     <div className={styles.g_parnt}>
       <div className={styles.parent}>
-        <Slider />
+        {/* <Slider /> */}
         <div className={styles.signup_sub}>
           <SignupStep1 />
         </div>
