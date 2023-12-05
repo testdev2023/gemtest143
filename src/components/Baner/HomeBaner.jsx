@@ -1,5 +1,7 @@
 import styles from "../../../styles/HomeBaner.module.css";
 import Link from "next/link";
+import Banner from "../../asset/Logo-1.jpg"
+import Banner2 from "../../asset/Logo-2.jpg"
 
 export default function HomeBaner({ dataBanner }) {
   return (
@@ -7,7 +9,9 @@ export default function HomeBaner({ dataBanner }) {
       <div className={styles.section}>
         <h2 className="yellow">Our Brand Partners</h2>
       </div>
-      <Link
+      <img src="../../asset/Logo-1.jpg"/>
+      <img src="../../asset/Logo-2.jpg"/>
+      {/* <Link
         href={dataBanner?.url}
         style={{
           background: `url(${dataBanner.image})`,
@@ -24,7 +28,7 @@ export default function HomeBaner({ dataBanner }) {
             More Details
           </Link>
         </div>
-      </Link>
+      </Link> */}
       {/* </Link> */}
     </div>
   );
