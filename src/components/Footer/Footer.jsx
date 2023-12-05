@@ -155,15 +155,6 @@ export default function Footer() {
                 />
               </div>
               <div
-                onClick={() => window.open("https://twitter.com/iamgemglobal")}
-              >
-                <Image
-                  src={xlogo}
-                  alt="xIcon"
-                  style={{ height: "20px", width: "20px" }}
-                />
-              </div>
-              <div
                 onClick={() =>
                   window.open("https://www.instagram.com/iamgemglobal/")
                 }
@@ -174,6 +165,16 @@ export default function Footer() {
                   style={{ height: "20px", width: "20px" }}
                 />
               </div>
+              <div
+                onClick={() => window.open("https://twitter.com/iamgemglobal")}
+              >
+                <Image
+                  src={xlogo}
+                  alt="xIcon"
+                  style={{ height: "20px", width: "20px" }}
+                />
+              </div>
+            
               <div
                 onClick={() =>
                   window.open(
