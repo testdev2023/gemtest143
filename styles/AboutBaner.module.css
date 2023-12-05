@@ -1,7 +1,8 @@
 .about_baner_main {
   width: 100%;
-  max-width: 1440px;
-  background-image: url(../src/asset/talent-bg.jpg) !important;
+  /* max-width: 1440px; */
+  background-image: url(../src/asset/bg-1.png) !important;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
