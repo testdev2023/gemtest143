@@ -10,7 +10,7 @@
   padding: 10px 0;
 }
 .Signup_g_parnt__wufsy {
-  background-image: url(../src/asset/signup-bg.jpg);
+  background-image: url(../src/asset/signup-bg.jpg) !important;
   background-size: cover;
 }
 
