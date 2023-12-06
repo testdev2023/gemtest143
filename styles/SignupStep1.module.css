@@ -96,7 +96,7 @@
   align-items: center;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #fcc100;
+  border: 1px solid #000 !important;
 }
 .step2_box {
   height: 25px;
@@ -106,7 +106,7 @@
   align-items: center;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #fcc100;
+  border: 1px solid #000 !important;
 }
 .step3_box {
   height: 25px;
@@ -116,7 +116,7 @@
   align-items: center;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #fcc100;
+  border: 1px solid #000 !important;
 }
 .signup_form {
   height: 100%;
