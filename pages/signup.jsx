@@ -8,10 +8,11 @@ import ScrollToTopButton from "../src/components/ScrollToTopButton/ScrollToTopBu
 
 export default function Signup() {
   return (
-    
-    <div className={styles.g_parnt}>
+    <div>
         <ScrollToTopButton />
         <TopBar />
+    <div className={styles.g_parnt}>
+      
       <div className={styles.parent}>
         {/* <Slider /> */}
         <div className={styles.signup_sub}>
@@ -21,6 +22,7 @@ export default function Signup() {
         </div>
       </div>
       <Footer />
+    </div>
     </div>
   );
 }
