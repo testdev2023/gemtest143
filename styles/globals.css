@@ -448,12 +448,12 @@ ul.quick-links, ul.quick-links-two {
 .main-form{
   color: #000 !important;
 }
-.SignupStep1_signup_container__zXZa6 {
-  background: #FFF !important;
-  border-radius: 10px !important;
+a.SignupStep2_link__2cAPL img {
+  display: none;
 }
-.input {
-color : #000 !important;
+
+.SignupStep1_signup_form_sec2__R2nAZ > div > p {
+  color: black !important;
 }
 .form-span {
   color: black !important;
