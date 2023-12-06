@@ -132,7 +132,7 @@ export default function SignupStep2({
             </div>
 
             <div>
-              <p style={{ color: "#C2C2C2" }}>City</p>
+              <p style={{ color: "#000000" }}>City</p>
 
               <select
                 className={stylestep2.select}
@@ -157,7 +157,7 @@ export default function SignupStep2({
 
           <div className={stylestep2.signup_form_sec3}>
             <div>
-              <p style={{ color: "#C2C2C2" }}>Date of Birth</p>
+              <p style={{ color: "#000000" }}>Date of Birth</p>
 
               <input
                 className={stylestep2.date}
