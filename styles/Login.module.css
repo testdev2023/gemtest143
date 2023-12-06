@@ -15,13 +15,16 @@
   display: flex;
 }
 .login_container {
-  height: 100%;
+  height: auto;
   background: #FFFFFF;
   width: 50%;
   display: flex;
+  margin-top: 125px !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
+
 }
 
 .login_sub_container {
