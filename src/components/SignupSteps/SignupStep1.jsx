@@ -492,7 +492,7 @@ const SignupStep1 = ({}) => {
 
             <form onSubmit={handleNext} className={styles.signup_form}>
               <div className={styles.signup_form_sec1}>
-                <h2 className="yellow">Create Account</h2>
+                <h2 className="main-form">Create Account</h2>
                 <p>Welcome! Please enter your details.</p>
               </div>
               <div className={styles.signup_form_sec3}>

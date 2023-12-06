@@ -22,6 +22,9 @@
 .label :hover {
   cursor: pointer;
 }
+.react-tel-input .form-control {
+  color: black !important;
+}
 .label {
   display: flex;
   flex-direction: column;
