@@ -12,6 +12,12 @@
   align-items: center;
   padding: 0 15px;
 }
+.main-form{
+  color: #000 !important;
+}
+.main-form p {
+  color: black !important;
+} 
 
 .label :hover {
   cursor: pointer;
@@ -243,9 +249,10 @@
 
 .signup_form_sec5 p {
   margin-right: 5px;
+  color: #000 !important;
 }
 .signup_form_sec5 a {
-  color: #fcc100;
+  color: #000 !important;
 }
 
 .p_number {
