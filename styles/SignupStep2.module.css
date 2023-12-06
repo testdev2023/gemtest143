@@ -200,6 +200,7 @@
   font-size: 12px;
   display: flex;
   align-items: center;
+  color: #000 !important;
 }
 
 .date {
@@ -208,7 +209,6 @@
   border: none;
   outline: none;
   background: transparent;
-
   font-size: 20px;
   margin-top: 10px;
 }
@@ -219,9 +219,6 @@
   border: none;
   outline: none;
   background: transparent;
-
-  /* font-size: 6px; */
-  /* margin: 20px 20px 0 0; */
   margin-right: 5px;
 }
 
@@ -250,7 +247,7 @@
   content: "";
   /* -webkit-appearance: none; */
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
     inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
   padding: 10px;
@@ -354,7 +351,7 @@
   margin-right: 5px;
 }
 .signup_form_sec5 a {
-  color: #fcc100;
+  color: #000 !important;
 }
 
 @media only screen and (max-width: 1024px) {
