@@ -2,7 +2,7 @@
   width: 100%;
 }
 .steper_dash {
-  border-bottom: 2px solid #fcc100;
+  border-bottom: 2px solid #000 !important;
   width: 40%;
 }
 .steper {
@@ -97,6 +97,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #000 !important;
+  background: #000 !important;
 }
 .step2_box {
   height: 25px;
@@ -107,6 +108,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #000 !important;
+  background: #000 !important;
 }
 .step3_box {
   height: 25px;
@@ -117,6 +119,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #000 !important;
+  background: #000 !important;
 }
 .signup_form {
   height: 100%;
