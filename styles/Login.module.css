@@ -133,7 +133,7 @@
   font-weight: 100;
   font-size: 15px;
   line-height: 26px;
-  color: #ffffff;
+  color: #000000 !important;
   width: 100%;
 }
 .login_form_passwordVisible {
