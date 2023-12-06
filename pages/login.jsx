@@ -9,8 +9,9 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
-import Image from "next/image";
-import logo from "../src/asset/gemlogo.png";
+import TopBar from "../src/components/TopBar/EntTopBar";
+import Footer from "../src/components/Footer/Footer";
+import ScrollToTopButton from "../src/components/ScrollToTopButton/ScrollToTopButton";
 import GoogleAuth from "../src/components/GoogleAuth/google";
 import FacebookAuth from "../src/components/FacebookAuth/facebook";
 export default function Login() {
@@ -76,10 +77,13 @@ export default function Login() {
   }, []);
 
   return (
+    <div>
+       <ScrollToTopButton />
+        <TopBar />
     <div className={styles.parent}>
       <div className={styles.login_main}>
-        <Slider />
-
+        {/* <Slider /> */}
+       
         <div className={styles.login_container}>
           <div className={styles.login_sub_container}>
             {/* <Link className={styles.link} href="/">
@@ -186,6 +190,8 @@ export default function Login() {
           </div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }
