@@ -460,7 +460,7 @@ const SignupStep1 = ({}) => {
                 <div
                   onClick={() => {}}
                   className={styles.step1_box}
-                  style={{ background: "#fcc100" }}
+                  style={{ background: "#000 !important" }}
                 >
                   1
                 </div>

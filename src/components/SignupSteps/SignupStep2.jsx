@@ -78,7 +78,7 @@ export default function SignupStep2({
             <div className={stylestep2.steper_dash}></div>
             <div
               className={stylestep2.step2_box}
-              style={{ background: "#fcc100" }}
+              style={{ background: "#000 !important" }}
             >
               2
             </div>
@@ -94,20 +94,20 @@ export default function SignupStep2({
         <div className={stylestep2.signup_sub_container}>
           {/* <Link href="ent" className={stylestep2.link}> */}
           <Link href="/" className={stylestep2.link}>
-            <Image
+            {/* <Image
               style={{ height: "130px", width: "130px" }}
               src={logo}
               loading="lazy"
               alt="logo"
-            />
+            /> */}
           </Link>
           {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> */}
         </div>
 
         <div className={stylestep2.signup_form}>
           <div className={stylestep2.signup_form_sec1}>
-            <h1>Create Account</h1>
-            <p>Welcome! Please enter your details.</p>
+          <h2 className="main-form">Create Account</h2>
+                <p className="form-span">Welcome! Please enter your details.</p>
           </div>
           <div className={stylestep2.signup_form_sec2}>
             <div>
