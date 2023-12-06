@@ -864,10 +864,10 @@ const SignupStep1 = ({}) => {
 
             <form onSubmit={handleSubmit} className={stylestep3.signup_form}>
               <div className={stylestep3.signup_form_sec1}>
-                <h2 className="yellow">Create Password</h2>
+                <h2 className="main-form">Create Password</h2>
               </div>
 
-              <p>Example Password: SecureP@ss1</p>
+              <p className="main-form"> Example Password: SecureP@ss1</p>
               <div className={stylestep3.login_form_password}>
                 <input
                   type={passwordVisible ? "text" : "password"}
