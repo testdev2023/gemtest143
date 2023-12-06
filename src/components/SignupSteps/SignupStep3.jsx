@@ -120,12 +120,12 @@ export default function SignupStep3({
         <div className={stylestep3.signup_sub_container}>
           {/* <Link href="ent" className={stylestep3.link}> */}
           <Link href="/" className={stylestep3.link}>
-            <Image
+            {/* <Image
               style={{ height: "130px", width: "130px" }}
               src={logo}
               loading="lazy"
               alt="logo"
-            />
+            /> */}
           </Link>
           {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> */}
         </div>
