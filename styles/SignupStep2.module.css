@@ -267,7 +267,6 @@
   width: 6px;
   height: 14px;
   border: solid #fcc100;
-
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -349,6 +348,7 @@
 
 .signup_form_sec5 p {
   margin-right: 5px;
+  color : #000 !important;
 }
 .signup_form_sec5 a {
   color: #000 !important;

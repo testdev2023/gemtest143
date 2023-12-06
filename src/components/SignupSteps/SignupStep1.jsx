@@ -633,8 +633,8 @@ const SignupStep1 = ({}) => {
 
             <div className={stylestep2.signup_form}>
               <div className={stylestep2.signup_form_sec1}>
-                <h2 className="yellow">Create Account</h2>
-                <p>Welcome! Please enter your details.</p>
+              <h2 className="main-form">Create Account</h2>
+                <p className="form-span">Welcome! Please enter your details.</p>
               </div>
 
               <div className={styles.signup_form_sec2}>
