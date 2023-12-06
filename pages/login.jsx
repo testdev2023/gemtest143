@@ -97,8 +97,8 @@ export default function Login() {
 
             <form onSubmit={handleSubmit} className={styles.login_form}>
               <div className={styles.login_form_sec1}>
-                <h2 className="yellow">Login</h2>
-                <p>Welcome! Please enter your details.</p>
+                <h2 className="main-form">Login</h2>
+                <p className="main-form">Welcome! Please enter your details.</p>
               </div>
 
               <div className={styles.login_social_links}>
