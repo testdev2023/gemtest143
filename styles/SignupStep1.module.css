@@ -128,7 +128,6 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-
   margin-bottom: 24px;
 }
 
@@ -230,7 +229,8 @@
   font-weight: 500;
   outline: none;
   border: none;
-  background: var(--themeGradient);
+  background: #000 !important;
+  border-radius: 10px !important;
   box-shadow: 5px 5px 5px 0px #000000;
   cursor: pointer;
 }
