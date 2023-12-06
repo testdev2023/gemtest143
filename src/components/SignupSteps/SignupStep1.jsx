@@ -620,7 +620,7 @@ const SignupStep1 = ({}) => {
               </div>
             </div>
             <div className={stylestep2.signup_sub_container}>
-              <Link href="/" className={stylestep2.link}>
+              {/* <Link href="/" className={stylestep2.link}>
                 <Image
                   style={{ height: "130px", width: "130px" }}
                   src={logo}
@@ -628,7 +628,7 @@ const SignupStep1 = ({}) => {
                   priority={true}
                   alt="logo"
                 />
-              </Link>
+              </Link> */}
             </div>
 
             <div className={stylestep2.signup_form}>
@@ -851,7 +851,7 @@ const SignupStep1 = ({}) => {
 
             <div className={stylestep3.signup_sub_container}>
               {/* <Link href="ent" className={stylestep3.link}> */}
-              <Link href="/" className={stylestep3.link}>
+              {/* <Link href="/" className={stylestep3.link}>
                 <Image
                   style={{ height: "130px", width: "130px" }}
                   src={logo}
@@ -859,7 +859,7 @@ const SignupStep1 = ({}) => {
                   priority={true}
                   alt="logo"
                 />
-              </Link>
+              </Link> */}
             </div>
 
             <form onSubmit={handleSubmit} className={stylestep3.signup_form}>
