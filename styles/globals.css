@@ -451,6 +451,9 @@ ul.quick-links, ul.quick-links-two {
 .form-span {
   color: black !important;
 } 
+.react-tel-input .form-control {
+  color: #000 !important;
+}
 .input {
 color : #000 !important;
 }
