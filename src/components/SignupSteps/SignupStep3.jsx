@@ -113,7 +113,7 @@ export default function SignupStep3({
           <div className={stylestep3.steper}>
             <div> </div>
             <div></div>
-            <div>Create Password</div>
+            <div className="main-form">Create Password</div>
           </div>
         </div>
 
@@ -132,7 +132,7 @@ export default function SignupStep3({
 
         <form onSubmit={fmrk.handleSubmit} className={stylestep3.signup_form}>
           <div className={stylestep3.signup_form_sec1}>
-            <h1>Create Password</h1>
+            <h1 className="main-form">Create Password</h1>
           </div>
 
           <div className={stylestep3.login_form_password}>

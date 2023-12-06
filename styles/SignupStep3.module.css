@@ -228,7 +228,6 @@
   width: 6px;
   height: 14px;
   border: solid #fcc100;
-
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -248,7 +247,8 @@
   font-weight: 500;
   outline: none;
   border: none;
-  background: var(--themeGradient);
+  background: #000 !important;
+  color: white !important;
   box-shadow: 5px 5px 5px 0px #000000;
   cursor: pointer;
 }
@@ -269,7 +269,8 @@
   border: none;
   background: transparent;
   box-shadow: 5px 5px 5px 0px #000000;
-  border: 1px solid #fcc100;
+  border: 1px solid #000000;
+  color: #000 !important;
   cursor: pointer;
 }
 .signup_form_btn:hover {
@@ -278,7 +279,7 @@
 .signup_form_btn2:hover {
   color: #000;
   border: none;
-  background: var(--themeGradient);
+  background: #000000;
 }
 
 .signup_form_sec5 {
