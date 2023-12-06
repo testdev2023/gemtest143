@@ -169,7 +169,7 @@
 }
 
 .login_form_sec4 a {
-  color: #fcc100;
+  color: #000000;
 }
 
 .form_group {
@@ -215,7 +215,7 @@
   left: 9px;
   width: 6px;
   height: 14px;
-  border: solid #fcc100;
+  border: solid #000000;
 
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
@@ -235,7 +235,8 @@
   font-weight: 500;
   outline: none;
   border: none;
-  background: var(--themeGradient);
+  background: #000000;
+  color: white !important;
   box-shadow: 5px 5px 5px 0px #000000;
   cursor: pointer;
 }
@@ -253,7 +254,7 @@
 }
 
 .login_form_sec5 a {
-  color: #fcc100;
+  color: #000000;
 }
 
 .data {
@@ -308,7 +309,7 @@
   .login_form_sec5 a {
     font-size: 14px;
 
-    /* color: #fcc100; */
+    /* color: #000000; */
   }
 
   .login_sub_container > a > img {
