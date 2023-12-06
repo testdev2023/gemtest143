@@ -37,7 +37,6 @@
   border-radius: 10px !important;
   margin-top: 125px !important;
   padding-top: 24px;
-  background: #000 !important;
 }
 
 .signup_sub_container {
@@ -84,6 +83,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #000000;
+  background: #000 !important;
 }
 .step2_box {
   height: 25px;
@@ -94,6 +94,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #000000;
+  background: #000 !important;
 }
 .step3_box {
   height: 25px;
@@ -104,6 +105,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #000000;
+  background: #000 !important;
 }
 .signup_form {
   height: 100%;
