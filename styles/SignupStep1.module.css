@@ -246,6 +246,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px !important;
 }
 
 .signup_form_sec5 p {
