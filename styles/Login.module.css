@@ -1,12 +1,14 @@
 .parent {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/_next/static/media/signup-bg.681a830c.jpg)!important;
+  background-image: url(../src/asset/signup-bg.jpg)!important;
   background-size: cover;
   padding: 10px 0;
+  margin-top: 125px !important;
+  margin-bottom: 125px !important;
 }
 .login_main {
   /* height: 100%; */
@@ -25,6 +27,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  border-radius: 10px !important;
 
 }
 
