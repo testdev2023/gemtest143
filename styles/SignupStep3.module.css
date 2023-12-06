@@ -250,6 +250,7 @@
   background: #000 !important;
   color: white !important;
   box-shadow: 5px 5px 5px 0px #000000;
+  border-radius: 10px !important;
   cursor: pointer;
 }
 .signup_form_btn2 {
@@ -265,6 +266,7 @@
   display: inline-block;
   cursor: pointer;
   font-weight: 500;
+  border-radius: 10px !important;
   outline: none;
   border: none;
   background: transparent;
@@ -313,7 +315,7 @@
   font-weight: 100;
   font-size: 15px;
   line-height: 26px;
-  color: #ffffff;
+  color: #000000;
   width: 100%;
 }
 .passwordvisible_styling {
