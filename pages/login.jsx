@@ -182,7 +182,7 @@ export default function Login() {
                 Log in
               </button>
               <div className={styles.login_form_sec5}>
-                <p>Don’t have an account?</p>
+                <p className="main-form">Don’t have an account?</p>
                 <Link href="signup">Sign up now</Link>
               </div>
               <ToastContainer className="tost" />
