@@ -606,8 +606,11 @@ option {
   /* padding: 10px; */
   line-height: 2.5em;
 }
+.InnerBaner_carousel1__d8X1b :nth-child(2) {
+  top: 75%!important;
+}
  .InnerBaner_img__di0dy {
-  height: 50vh !important;
+  height: 25vh !important;
   margin-bottom: 65px;
  }
  .event-section-icons {
