@@ -609,6 +609,15 @@ option {
 .InnerBaner_carousel1__d8X1b :nth-child(2) {
   top: 20%!important;
 }
+h3.name_heading {
+  text-align: center !important;
+}
+.color_yellow, .yellow {
+  color: #fcc100;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.5em;
+}
 .InnerBaner_carousel1__d8X1b :nth-child(2) li button {
   height: 10px;
   width: 10px;
