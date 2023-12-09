@@ -46,6 +46,19 @@ export default function HomeBaner({ dataBanner }) {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      {/* Static Image Section */}
+      <div className={styles.staticImageSection}>
+        <img
+          src="/path/to/your/static/image.jpg"
+          alt="Static Image"
+          className={styles.staticImage}
+        />
+        <div>
+          <h3>Static Image Title</h3>
+          <p>Static Image Description</p>
+        </div>
+      </div>
     </div>
   );
 }
