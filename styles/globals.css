@@ -615,6 +615,9 @@ option {
   border: 2px solid #f1b001;
   display: none;
 }
+.NewsBaner_news_image_div__DIHQx img {
+  object-fit: none !important;
+}
  .InnerBaner_img__di0dy {
   height: 25vh !important;
   margin-bottom: 65px;
