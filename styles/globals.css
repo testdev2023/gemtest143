@@ -607,7 +607,13 @@ option {
   line-height: 2.5em;
 }
 .InnerBaner_carousel1__d8X1b :nth-child(2) {
-  top: 75%!important;
+  top: 50%!important;
+}
+.InnerBaner_carousel1__d8X1b :nth-child(2) li button {
+  height: 10px;
+  width: 10px;
+  border: 2px solid #f1b001;
+  display: none;
 }
  .InnerBaner_img__di0dy {
   height: 25vh !important;
